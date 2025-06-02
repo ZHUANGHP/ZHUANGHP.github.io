@@ -137,18 +137,18 @@ header:
 <div class="research-areas">
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/projects/CL.png" alt="Continued Learning">
+      <img src="/assets/images/research/CL.png" alt="continual Learning">
     </div>
     <div class="research-area-content">
-      <div class="research-area-title">Continued Learning</div>
+      <div class="research-area-title">continual Learning</div>
       <div class="research-area-description">Developing systems that learn continuously over time without forgetting previous knowledge</div>
-      <a href="/research/continued-learning" class="research-btn">Learn More</a>
+      <a href="/research/continual-learning" class="research-btn">Learn More</a>
     </div>
   </div>
   
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/projects/EI.jpg" alt="Embodied Intelligence">
+      <img src="/assets/images/research/EI.jpg" alt="Embodied Intelligence">
     </div>
     <div class="research-area-content">
       <div class="research-area-title">Embodied Intelligence</div>
@@ -159,7 +159,7 @@ header:
   
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/projects/LLM.png" alt="Large Language Models">
+      <img src="/assets/images/research/LLM.png" alt="Large Language Models">
     </div>
     <div class="research-area-content">
       <div class="research-area-title">Large Language Models</div>
