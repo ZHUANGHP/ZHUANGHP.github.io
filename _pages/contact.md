@@ -9,5 +9,5 @@ author_profile: true
 
 **Qualifications**
 - Degree(s) in computer science, artificial intelligence, mathematics, engineering or other related fields.
-- Strong motivation and interest in both theory and application of machine learning, deep learning and related topics.
+- Strong motivation and interest in both theory andapplication of machine learning, deep learning and embodied AI.
 - Published papers are a plus.
