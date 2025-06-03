@@ -79,6 +79,18 @@ classes: wide
 
 <div class="project-box">
   <div class="project-heading">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/4b74a42fc81fc7ee252f6bcb6e26c8be-Abstract-Conference.html">ACIL: Analytic class-incremental learning with absolute memorization and privacy protection</a>
+  </div>
+  <div class="project-content">
+    We introduce a novel approach to class-incremental learning (CIL) that addresses the challenges of catastrophic forgetting and data privacy. The proposed Analytic Class-Incremental Learning (ACIL) framework allows for absolute memorization of past knowledge without storing historical data, thereby ensuring data privacy. We theoretically validate that ACIL can achieve results identical to traditional joint-learning methods while only using current data. Empirical results demonstrate that ACIL outperforms existing state-of-the-art methods, particularly in large-phase scenarios (e.g., 25 and 50 phases).
+  </div>
+  <div class="project-image">
+    <img src="/assets/images/papers/2022-1.png" alt="ACIL Paper">
+  </div>
+</div>
+
+<div class="project-box">
+  <div class="project-heading">
     <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhuang_GKEAL_Gaussian_Kernel_Embedded_Analytic_Learning_for_Few-Shot_Class_Incremental_CVPR_2023_paper.html">GKEAL: Gaussian Kernel Embedded Analytic Learning for Few-Shot Class Incremental Task</a>
   </div>
   <div class="project-content">
