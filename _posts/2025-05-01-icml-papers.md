@@ -1,13 +1,9 @@
 ---
-title: "We have 2 papers accepted by ICML 2025!"
-date: 2025-06-02
+title: "We have 3 papers accepted by ICML 2025!"
+date: 2025-05-01
 ---
 
-## Exciting News: Two Papers Accepted at ICML 2025!
-
-We are thrilled to announce that our research team has had **two papers** accepted at the prestigious **International Conference on Machine Learning (ICML) 2025**!
-
-Both papers contribute to the field of **continual learning**, addressing key challenges in multi-label class-incremental learning and exemplar-free class-incremental learning. Detailed information about each publication is provided below.
+We have three papers are accepted by the 42nd International Conference on Machine Learning (ICML’2025). Two papers contribute to the continual learning, addressing the problem of multi-label class incremental learning and dynamic analytic learning for evolving backbone in continual learning respectively. The other paper focuses on the large models, contributing to the watermarked image understanding via multi-modal LLMs. Detailed information about each publication is provided below.
 
 ---
 
@@ -54,6 +50,34 @@ Exemplar-Free Class-Incremental Learning (EFCIL) aims to sequentially learn from
 **Paper**: [https://arxiv.org/abs/2503.05423](https://arxiv.org/abs/2503.05423)
 
 **Code**: [https://github.com/RHe502/ICML25-DPCR](https://github.com/RHe502/ICML25-DPCR)
+
+---
+
+### Paper 3: WMarkGPT: Watermarked Image Understanding via Multi-modal Large Language Models
+
+**Authors**: Songbai Tan, Xuerui Qiu, Yao Shu, Gang Xu, Linrui Xu, Xiangyu Xu, Huiping Zhuang, Ming Li, Fei Yu
+
+#### Abstract:
+Invisible watermarking is widely used to protect digital images from unauthorized use. Accurate assessment of watermarking efficacy is crucial for advancing algorithmic development. However, existing statistical metrics, such as PSNR, rely on access to original images, which are often unavailable in text-driven generative watermarking and fail to capture critical aspects of watermarking, particularly visibility. More importantly, these metrics fail to account for potential corruption of image content. To address these limitations, we propose WMarkGPT, the first multimodal large language model (MLLM) specifically designed for comprehensive watermarked image understanding, without accessing original images. WMarkGPT not only predicts watermark visibility but also generates detailed textual descriptions of its location, content, and impact on image semantics, enabling a more nuanced interpretation of watermarked images. Tackling the challenge of precise location description and understanding images with vastly different content, we construct three visual question-answering (VQA) datasets: an object location-aware dataset, a synthetic watermarking dataset, and a real watermarking dataset. We introduce a meticulously designed three-stage learning pipeline to progressively equip WMarkGPT with the necessary abilities. Extensive experiments on synthetic and real watermarking QA datasets demonstrate that WMarkGPT outperforms existing MLLMs, achieving significant improvements in visibility prediction and content description.
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/news/WMG1.png" alt="Introduction to WMarkGPT" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 5px;">
+  <p><em>Introduction to WMarkGPT and Comparison with SOTAs</em></p>
+</div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/news/WMG2.png" alt="WQA-Synthetic pipeline" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 5px;">
+  <p><em>Illustration of WQA-Synthetic semi-automatic annotation pipeline</em></p>
+</div>
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/images/news/WMG3.png" alt="WMarkGPT architecture" style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 5px;">
+  <p><em>Model architecture and the progressive learning paradigm of WMarkGPT</em></p>
+</div>
+
+**Paper**: [To be added]
+
+**Code**: [https://github.com/TanSongBai/WMarkGPT](https://github.com/TanSongBai/WMarkGPT)
 
 ---
 

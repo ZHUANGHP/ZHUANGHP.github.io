@@ -99,24 +99,18 @@ h1 {
 </style>
 
 <div class="project-description">
-  Our research on Large Language Models focuses on architectural improvements, efficient training methods, and practical applications. We investigate how LLMs can be integrated with embodied systems to enable more natural and efficient interactions between agents and their environments.
+Our laboratory's research is dedicated to advancing the development of large models in dynamic real-world scenarios, with a particular emphasis on continual learning (CL) , parameter-efficient fine-tuning (PEFT) and reinforced fine-tuning (RFT). The core areas of our work include formulating strategies to mitigate the catastrophic forgetting problem, which is the tendency of LLMs to lose previously acquired knowledge when learning new tasks. We also aim to enhance the adaptability of models across various domains such as natural language understanding, code generation, and mathematical reasoning. Additionally, we address challenges related to high computational costs, parameter interference, and data privacy risks.
 </div>
 
 <div class="project-box">
   <div class="project-heading">
-    <a href="#">ResDecode: Accelerating Large Language Models Inference</a>
+    <a href="https://arxiv.org/abs/2503.13575">Analytic Subspace Routing: How Recursive Least Squares Works in Continual Learning of Large Language Model</a>
   </div>
   <div class="project-content">
-    This research introduces a novel approach for accelerating inference in large language models through the use of residual decoding heads. By optimizing the decoding process, we achieve significant performance improvements without sacrificing model quality, enabling more efficient deployment of LLMs in resource-constrained environments.
+    This paper addresses the catastrophic forgetting problem in the continual learning of large language models (LLMs) and the limitations of existing methods, such as those involving replay (leading to high costs) or single parameter modules (resulting in task interference or insufficient capacity). We propose the Analytical Subspace Routing (ASR) method, which creates independent low-rank adapters (LoRA) for each new task within the deep feature space. A dynamic router, trained based on Recursive Least Squares (RLS), is employed. This router analyzes input features to automatically select the most appropriate task-specific LoRA module for inference. Furthermore, it can incrementally update via auto-correlation and cross-correlation matrices without requiring historical data, theoretically guaranteeing zero forgetting.
   </div>
-</div>
-
-<div class="project-box">
-  <div class="project-heading">
-    <a href="#">Privacy-Preserving Fine-Tuning for LLMs</a>
-  </div>
-  <div class="project-content">
-    We explore methods for fine-tuning large language models while preserving data privacy. Our approach uses synthetic data generation techniques to create training examples that maintain utility while protecting sensitive information, allowing for specialized model adaptation without compromising user privacy.
+  <div class="project-image">
+    <img src="/assets/images/research/LLM/ASR.png" alt="Analytic Subspace Routing">
   </div>
 </div>
 
