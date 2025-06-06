@@ -60,6 +60,17 @@ classes: wide
   border: 1px solid #eee;
 }
 
+.project-video {
+  padding: 0 20px 20px;
+  text-align: center;
+}
+
+.project-video video {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+}
+
 .back-link {
   display: inline-block;
   margin-top: 30px;
@@ -80,19 +91,34 @@ classes: wide
 
 <div class="project-box">
   <div class="project-heading">
-    <a href="#">Complex Motion Planning for Quadruped Robots</a>
+    <a href="https://arxiv.org/abs/2503.13575">Analytic Task Scheduler: Recursive Least Squares-Based Method for Continual Learning in Embodied Foundation Models</a>
   </div>
   <div class="project-content">
-    This research focuses on developing advanced motion planning techniques for quadruped robots operating in complex environments. We integrate traditional control methods with learning-based approaches to enable robust locomotion over challenging terrains. Our methods incorporate real-time adaptation to changing environmental conditions while maintaining stability and energy efficiency.
+    In this work, we propose the Analytic Task Scheduler (ATS), a novel framework for continual learning in embodied foundation models. ATS consists of a task-specific model library, where each model is fine-tuned independently on a single task, and an analytic scheduler trained using recursive least squares (RLS) to learn the mapping between language instructions and task-specific models. We validate ATS on a real-world robot platform (RM65B), demonstrating superior resistance to forgetting and strong adaptability to task variations.
+  </div>
+  <div class="project-image">
+    <img src="/assets/images/research/EI/ATS.png" alt="Analytic Task Scheduler">
+  </div>
+  <div class="project-video" style="padding: 0 20px 20px; text-align: center;">
+    <video width="100%" autoplay muted loop>
+      <source src="/assets/videos/research/EI/ATS.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
 <div class="project-box">
   <div class="project-heading">
-    <a href="#">Sensorimotor Integration in Robotic Systems</a>
+    <a href="#">Robo-Peekaboo: Let robot think again based on a dual agents workflow</a>
   </div>
   <div class="project-content">
-    We investigate how sensory information can be effectively integrated with motor control in robotic systems to improve adaptability and responsiveness. This research draws inspiration from biological systems to create more natural movement patterns and better environmental interaction capabilities in robots.
+    We use multi-agent systems for environmental perception in embodied grasping systems, complex task decomposition, and whole-process rethinking, where each agent utilizes a shared memory bank for token prediction. To align with human intent, we developed a dual-agent loop that improves the grasping success rate by 25% compared to SOTA, and we embedded each agent's token output into a latent space for collaborative optimization.
+  </div>
+  <div class="project-video" style="padding: 0 20px 20px; text-align: center;">
+    <video width="100%" autoplay muted loop>
+      <source src="/assets/videos/research/EI/RP.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </div>
 
