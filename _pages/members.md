@@ -326,6 +326,16 @@ classes: wide
         </div>
       </div>
     </div>
+    
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Yingxin-Li.jpg" alt="Yingxin Li" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">Yingxin Li (李颖欣)</div>
+        <div class="member-role">Master Student, 2024 (Joint Training)</div>
+        <div class="member-email">202420160664@mail.scut.edu.cn</div>
+        <div class="member-research">Embodied Intelligence (具身智能)</div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -486,21 +496,6 @@ classes: wide
         <div class="member-name">Lianxin Geng (耿连馨)</div>
         <div class="member-role">Undergraduate, 2024</div>
         <div class="member-email">wigenglianxin1104@mail.scut.edu.cn</div>
-        <div class="member-research">Embodied Intelligence (具身智能)</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="members-section">
-  <h2 class="section-heading">Visiting Students</h2>
-  <div class="members-grid">
-    <div class="member-card">
-      <img src="/assets/images/profile/visiting/Yingxin-Li.jpg" alt="Yingxin Li" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">Yingxin Li (李颖欣)</div>
-        <div class="member-role">Visiting Student, 2024</div>
-        <div class="member-email">202420160664@mail.scut.edu.cn</div>
         <div class="member-research">Embodied Intelligence (具身智能)</div>
       </div>
     </div>

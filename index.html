@@ -15,8 +15,6 @@ header:
       url : "/research"
       icon: "fas fa-th-list"
       classes: "btn--primary btn--large"
-intro: 
-  - excerpt: 'We study continual learning, embodied intelligence, LLMs, and more. Our research focuses on developing innovative methodologies in these domains to advance the field of artificial intelligence.'
 
 news:
   - title: "Latest News"
@@ -83,34 +81,54 @@ feature_row4:
     btn_class: "btn--inverse"
 ---
 
-<div class="main-content-container">
-  <div class="content-column">
-    {% include feature_row id="intro" type="center" %}
-    
-    <h2 class="section-heading text-center">Latest News</h2>
-    <div class="news-section">
-      <ul class="news-list">
-        {% for item in page.news %}
-          {% if item.show_title != true %}
-            <li class="news-item">
-              <span class="news-date">{{ item.date }}</span>
-              {% if item.url %}
-                <a href="{{ item.url }}" class="news-title">{{ item.title }}</a>
-              {% else %}
-                <span class="news-title">{{ item.title }}</span>
-              {% endif %}
-            </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      <div class="news-more">
-        <a href="/news" class="btn btn--inverse">More News</a>
+<div class="main-container">
+  <!-- Two-column layout for top section -->
+  <div class="top-section">
+    <!-- Advisor Introduction -->
+    <div class="advisor-panel">
+      <h2 class="section-title">Advisor Introduction</h2>
+      <div class="advisor-content">
+        <div class="advisor-image">
+          <img src="/assets/images/profile/advisor/Huiping-Zhuang.jpg" alt="Professor Huiping Zhuang">
+        </div>
+        <div class="advisor-details">
+          <h3>Prof. Huiping Zhuang</h3>
+          <p class="advisor-position">Associate Professor, PhD Supervisor</p>
+          <p class="advisor-position">Assistant Dean, Shien-Ming Wu School of Intelligent Engineering</p>
+          <p class="advisor-bio">
+            He received his PhD from Nanyang Technological University, Singapore in 2022 and was recognized with the Outstanding Overseas Student Award by the National Natural Science Foundation of China. He leads key projects including the National Key R&D Program of China and National Natural Science Foundation projects. His research focuses on Evolvable Intelligence (including continual learning and embodied intelligence), with over 70 published papers. He pioneered "Analytical Continual Learning," establishing a specialized research direction in evolvable intelligence that has produced more than 10 papers in top conferences like NeurIPS/ICML in the past two years. His work has been recognized with two Best Paper (Nomination) Awards at international conferences, the Best Student Paper Achievement Award from Singapore's PREMIA Association, and a Silver Medal at the CVPR 2025 competition. He has delivered a keynote speech at an international conference and served in academic roles (e.g., Co-Chair) at four international/domestic conferences. He serves as a special issue editor for the Journal of Franklin Institute (JCR Q1) and was recognized as an Outstanding Reviewer for ICML 2022.
+          </p>
+        </div>
       </div>
     </div>
-    
-    <h2 class="section-heading text-center">Our Research</h2>
-    {% include feature_row %}
-    
+
+    <!-- Latest News with Compact Scrolling Design -->
+    <div class="news-panel">
+      <h2 class="section-title">Latest News</h2>
+      <div class="news-scroll-container">
+        <ul class="compact-news-list">
+          {% for post in site.posts limit:10 %}
+            <li class="compact-news-item">
+              <div class="news-date-badge">{{ post.date | date: "%b %d" }}</div>
+              <div class="news-brief">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="panel-footer">
+        <a href="/news" class="btn btn--small btn--black">More News</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Research Areas Section -->
+  <h2 class="main-section-heading">Research Areas</h2>
+  {% include feature_row %}
+
+  <!-- Bottom Sections -->
+  <div class="bottom-sections">
     {% include feature_row id="feature_row2" type="left" %}
     {% include feature_row id="feature_row3" type="right" %}
     {% include feature_row id="feature_row4" type="left" %}
@@ -118,88 +136,257 @@ feature_row4:
 </div>
 
 <style>
-  .main-content-container {
-    display: flex;
+  /* Color Variables for Consistency */
+  :root {
+    --primary-color: #2a5885;       /* Deeper blue - more professional */
+    --primary-light: #e8f0f8;       /* Light blue background */
+    --primary-highlight: #3a7ab3;   /* Slightly lighter blue for hover states */
+    --text-dark: #333;              /* Dark text color */
+    --text-muted: #666;             /* Muted text color */
+    --border-color: #dde4eb;        /* Light border color that complements the blue */
+    --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
   }
-  
-  .content-column {
-    width: 100%;
+
+  /* Main Container */
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
   }
-  
-  /* Add uniform image styling */
-  .feature__item .archive__item-teaser {
-    height: 250px; /* Set uniform height */
+
+  /* Top Section Layout */
+  .top-section {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 25px;
+    margin: 2em 0;
+  }
+
+  /* Common Panel Styling */
+  .advisor-panel, .news-panel {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: var(--card-shadow);
     overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+  }
+
+  .section-title {
+    background-color: var(--primary-color);
+    color: white;
+    margin: 0;
+    padding: 0.8em 1.2em;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .panel-footer {
+    padding: 10px 15px;
+    text-align: right;
+    border-top: 1px solid var(--border-color);
+    margin-top: 0; /* Remove margin */
+    background-color: var(--primary-light);
+  }
+
+  /* Advisor Panel Specific */
+  .advisor-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    flex-grow: 1;
+  }
+
+  .advisor-image {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .advisor-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+  }
+
+  .advisor-details {
+    flex-grow: 1;
+  }
+
+  .advisor-details h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    font-size: 1.3em;
+    text-align: center;
+  }
+
+  .advisor-position {
+    color: var(--text-muted);
+    font-style: italic;
+    margin: 0.3em 0;
+    font-size: 0.9em;
+    text-align: center;
+  }
+
+  .advisor-bio {
+    font-size: 0.9em;  /* Reduced from 0.9em */
+    line-height: 1.3;
+    color: var(--text-dark);
+    text-align: justify;  /* Added text justification */
+    hyphens: auto;  /* Added for better text justification */
+  }
+
+  /* News Panel Specific */
+  .news-scroll-container {
+    overflow-y: auto;
+    max-height: none; /* Remove fixed height */
+    flex-grow: 1; /* Take up all available space */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .compact-news-list {
+    list-style: none;
+    padding: 0 15px;
+    margin: 0;
+    flex-grow: 1; /* Allow list to grow and fill space */
+  }
+
+  /* Custom scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+  .news-scroll-container::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .news-scroll-container::-webkit-scrollbar-track {
+    background: var(--primary-light);
+    border-radius: 10px;
+  }
+
+  .news-scroll-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 10px;
+  }
+
+  .compact-news-list {
+    list-style: none;
+    padding: 0 15px;
+    margin: 0;
+  }
+
+  .compact-news-item {
+    display: flex;
+    padding: 8px 0;
+    border-bottom: 1px dotted var(--border-color);
+    align-items: flex-start;
+  }
+
+  .news-date-badge {
+    flex: 0 0 60px;
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+    font-size: 0.8em;
+    padding: 3px 5px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 3px;
+    border: 1px solid var(--border-color);
+  }
+
+  .news-brief {
+    font-size: 0.9em;
+    line-height: 1.4;
+  }
+
+  .news-brief a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+
+  .news-brief a:hover {
+    color: var(--primary-highlight);
+    text-decoration: underline;
+  }
+
+  /* Main Section Heading */
+  .main-section-heading {
+    text-align: center;
+    margin: 2em 0 1em;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--text-dark);
     position: relative;
+    padding-bottom: 10px;
+  }
+
+  .main-section-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--primary-color);
+  }
+
+  /* Button Styling */
+  .btn--small {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 0.85em;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+
+  .btn--small:hover {
+    background-color: var(--primary-highlight);
+    transform: translateY(-1px);
+  }
+  
+  /* Black button style */
+  .btn--black {
+    background-color: white;  /* Light grey background */
+    color: #000;               /* Black text color */
+    border: 1px solid #ddd;    /* Subtle border */
+  }
+  
+  .btn--black:hover {
+    background-color: #e0e0e0;  /* Slightly darker grey on hover */
+  }
+  
+  /* Research Area Images - Ensure consistent height */
+  .feature__item .archive__item-teaser {
+    height: 220px;  /* Fixed height for all research area images */
+    overflow: hidden;
   }
   
   .feature__item .archive__item-teaser img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio while filling container */
-    object-position: center; /* Center the image */
+    object-fit: cover;  /* Maintain aspect ratio and cover container */
+    object-position: center;  /* Center the image within container */
   }
   
-  /* Ensure consistent spacing around feature items */
-  .feature__item {
-    margin-bottom: 2em;
+  /* Bottom section images consistency */
+  .feature__wrapper .feature__item .archive__item-teaser {
+    height: 280px;  /* Slightly taller for bottom section images */
   }
   
-  .feature__item .archive__item {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-  
-  .news-section {
-    margin: 2em 0 3em 0;
-    padding: 1em 0;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .news-list {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 1.5em;
-  }
-  
-  .news-item {
-    display: flex;
-    margin-bottom: 0.75em;
-    align-items: baseline;
-  }
-  
-  .news-date {
-    min-width: 100px;
-    color: #767676;
-    font-size: 0.9em;
-    margin-right: 1em;
-  }
-  
-  .news-title {
-    font-weight: 500;
-  }
-  
-  .news-more {
-    text-align: right;
-  }
-  
-  .section-heading {
-    text-align: center;
-    margin-bottom: 1.5em;
-    font-size: 2em;
-    font-weight: bold;
-    color: #333;
-  }
-  
+  /* Responsive Design */
   @media screen and (max-width: 768px) {
-    .news-item {
-      flex-direction: column;
+    .top-section {
+      grid-template-columns: 1fr;
     }
     
-    .news-date {
-      margin-bottom: 0.25em;
+    .advisor-image img {
+      max-width: 150px;
     }
   }
 </style>
