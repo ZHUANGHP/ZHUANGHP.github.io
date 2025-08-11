@@ -21,7 +21,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h2 class="archive__item-title">{{ f.title }}</h2>
+            <h5 class="archive__item-title" style="font-size: 0.8em;">{{ f.title }}</h5>
           {% endif %}
 
           {% if f.excerpt %}
@@ -29,10 +29,10 @@
               {{ f.excerpt | markdownify }}
             </div>
           {% endif %}
-
-          {% if f.url %}
-            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
+          
+          <!-- {% if f.url %}
+            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}" style="margin: 2px">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %} -->
         </div>
       </div>
     </div>

@@ -1,0 +1,21 @@
+# Chinese Recent Projects
+- image_path: /assets/images/projects/adaptive-learning.jpg
+  title: "自适应学习系统"
+  excerpt: "开发能够根据用户行为和环境变化自动调整学习策略的智能系统。该项目结合了强化学习和元学习技术，实现个性化的学习体验。"
+  url: "/zh/projects/#adaptive-learning"
+  btn_label: "查看详情"
+  btn_class: "btn--black btn--small"
+
+- image_path: /assets/images/projects/multimodal-ai.jpg
+  title: "多模态AI助手"
+  excerpt: "构建能够同时处理文本、图像、音频和视频的多模态人工智能助手。该系统能够理解复杂的多媒体内容并提供智能化的交互体验。"
+  url: "/zh/projects/#multimodal-ai"
+  btn_label: "查看详情"
+  btn_class: "btn--black btn--small"
+
+- image_path: /assets/images/projects/robot-collaboration.jpg
+  title: "人机协作机器人"
+  excerpt: "设计和开发能够与人类安全协作的智能机器人系统。项目重点关注机器人的感知能力、决策算法和人机交互界面的优化。"
+  url: "/zh/projects/#robot-collaboration"
+  btn_label: "查看详情"
+  btn_class: "btn--black btn--small"

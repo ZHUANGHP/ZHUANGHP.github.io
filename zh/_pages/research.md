@@ -1,7 +1,8 @@
 ---
-permalink: /research/
+permalink: /zh/research/
 layout: splash
-title: "Research"
+title: "研究方向"
+lang: zh-CN
 
 header:
   overlay_image: /assets/images/project.png
@@ -10,7 +11,7 @@ header:
 
 <style>
 :root {
-  --primary-color: #1a76d2;
+  --primary-color: #204B7Cff;
   --primary-hover: #0d5caf;
   --heading-color: #333333;
   --text-color: #444444;
@@ -62,23 +63,23 @@ header:
 }
 
 .research-area-content {
+  font-size: 0.85em;
   padding: 20px;
 }
 
 .research-area-title {
-  font-size: 0.85em !important; /* Reduced from 1.5em */
+  font-size: 1.2em;
   font-weight: bold;
+  color: var(--primary-color);
   margin-bottom: 10px;
   text-align: center;
-  color: var(--heading-color);
 }
 
 .research-area-description {
   margin-bottom: 20px;
   text-align: center;
   color: #000000; /* Changed to black */
-  font-size: 0.85em; /* Added smaller font size */
-  height: 6.5em;
+  height: 5em;
   overflow: hidden;
 }
 
@@ -111,40 +112,39 @@ header:
 }
 </style>
 
+<div class="research-area-content"><p>在MIAA实验室，我们探索前沿技术和方法论，以推进人工智能的发展。</p><p>我们的研究专注于三个主要方向，体现了我们对推动机器智能和适应能力边界的承诺。</p><div>
 
-At MIAA Lab, we explore cutting-edge technologies and methodologies to advance the state of artificial intelligence. Our research focuses on three main directions that represent our commitment to pushing the boundaries of machine intelligence and adaptation capabilities.
 <div class="research-areas">
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/research/CL.png" alt="continual Learning">
+      <img src="/assets/images/research/CL.png" alt="持续学习">
     </div>
     <div class="research-area-content">
-      <div class="research-area-title">Continual Learning</div>
-      <div class="research-area-description">Developing systems that learn continuously over time without forgetting previous knowledge</div>
-      <a href="/research/continual-learning" class="research-btn">Learn More</a>
+      <div class="research-area-title">持续学习</div>
+      <div class="research-area-description">开发能够随时间持续学习而不遗忘先前知识的系统</div>
+      <a href="/zh/research/continual-learning" class="research-btn">了解更多</a>
     </div>
   </div>
   
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/research/EI.jpg" alt="Embodied Intelligence">
+      <img src="/assets/images/research/EI.jpg" alt="具身智能">
     </div>
     <div class="research-area-content">
-      <div class="research-area-title">Embodied Intelligence</div>
-      <div class="research-area-description">Exploring how intelligence emerges from the interaction between an agent's physical form and its control systems</div>
-      <a href="/research/embodied-intelligence" class="research-btn">Learn More</a>
+      <div class="research-area-title">具身智能</div>
+      <div class="research-area-description">探索智能如何从智能体的物理形态与其控制系统的交互中涌现</div>
+      <a href="/zh/research/embodied-intelligence" class="research-btn">了解更多</a>
     </div>
   </div>
   
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/research/LLM.png" alt="Large Language Models">
+      <img src="/assets/images/research/LLM.png" alt="大语言模型">
     </div>
     <div class="research-area-content">
-      <div class="research-area-title">Large Language Models</div>
-      <div class="research-area-description">Advancing the capabilities of large language models and integrating them with embodied systems</div>
-      <a href="/research/large-language-models" class="research-btn">Learn More</a>
+      <div class="research-area-title">大语言模型</div>
+      <div class="research-area-description">推进大语言模型的能力并将其与具身系统集成</div>
+      <a href="/zh/research/large-language-models" class="research-btn">了解更多</a>
     </div>
   </div>
 </div>
-

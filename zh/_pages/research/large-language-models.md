@@ -1,6 +1,6 @@
 ---
-title: "Large Language Models"
-permalink: /research/large-language-models/
+title: "大模型"
+permalink: /zh/research/large-language-models/
 layout: single
 classes: wide
 ---
@@ -25,11 +25,11 @@ classes: wide
 }
 
 .project-description {
+  font-size: 0.85em;
   margin-bottom: 30px;
   text-align: justify;
   line-height: 1.6;
   color: var(--text-color);
-  font-size: 0.85em;
 }
 
 .project-box {
@@ -64,6 +64,7 @@ classes: wide
   padding: 20px;
   text-align: justify;
   line-height: 1.5;
+  font-size: 0.85em;
   color: var(--text-color);
 }
 
@@ -100,7 +101,7 @@ h1 {
 </style>
 
 <div class="project-description">
-Our laboratory's research is dedicated to advancing the development of large models in dynamic real-world scenarios, with a particular emphasis on continual learning (CL) , parameter-efficient fine-tuning (PEFT) and reinforced fine-tuning (RFT). The core areas of our work include formulating strategies to mitigate the catastrophic forgetting problem, which is the tendency of LLMs to lose previously acquired knowledge when learning new tasks. We also aim to enhance the adaptability of models across various domains such as natural language understanding, code generation, and mathematical reasoning. Additionally, we address challenges related to high computational costs, parameter interference, and data privacy risks.
+本实验室致力于推动大模型在动态真实场景中的发展，研究重点涵盖持续学习（CL）、参数高效微调（PEFT）与强化微调（RFT）。我们聚焦以下核心方向：制定策略以缓解灾难性遗忘——即大语言模型在学习新任务时丢失既有知识的倾向；提升模型在自然语言理解、代码生成与数学推理等多领域的适应能力；并同时应对高算力成本、参数干扰及数据隐私风险等挑战。
 </div>
 
 <div class="project-box">
@@ -108,11 +109,11 @@ Our laboratory's research is dedicated to advancing the development of large mod
     <a href="https://arxiv.org/abs/2503.13575">Analytic Subspace Routing: How Recursive Least Squares Works in Continual Learning of Large Language Model</a>
   </div>
   <div class="project-content">
-    This paper addresses the catastrophic forgetting problem in the continual learning of large language models (LLMs) and the limitations of existing methods, such as those involving replay (leading to high costs) or single parameter modules (resulting in task interference or insufficient capacity). We propose the Analytical Subspace Routing (ASR) method, which creates independent low-rank adapters (LoRA) for each new task within the deep feature space. A dynamic router, trained based on Recursive Least Squares (RLS), is employed. This router analyzes input features to automatically select the most appropriate task-specific LoRA module for inference. Furthermore, it can incrementally update via auto-correlation and cross-correlation matrices without requiring historical data, theoretically guaranteeing zero forgetting.
+    本文针对大语言模型持续学习中的灾难性遗忘问题，以及现有方法的局限——如回放机制带来的高成本、单一参数模块导致的任务干扰或容量不足——提出解析子空间路由（Analytical Subspace Routing, ASR）。ASR 在每个新任务到来时，于深层特征空间内为其构造独立的低秩适配器（LoRA），并通过基于递归最小二乘（RLS）训练的动态路由器，依据输入特征自动选择最适合的 LoRA 模块进行推理。该路由器可利用自相关与互相关矩阵在不依赖历史数据的情况下进行增量更新，从而在理论上实现零遗忘。
   </div>
   <div class="project-image">
     <img src="/assets/images/research/LLM/ASR.png" alt="Analytic Subspace Routing">
   </div>
 </div>
 
-<a href="/research" class="back-link">← Back to Research</a>
+<a href="/research" class="back-link">← 返回</a>

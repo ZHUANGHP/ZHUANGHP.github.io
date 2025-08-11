@@ -16,10 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
+rtl                      : #true, #false (default) # turns direction of the page into right to left for RTL languages
 title                    : "MIAA LAB"
 title_separator          : "-"
 subtitle                 : "Machine Intelligence & Advanced Adaptation Laboratory" # site tagline that appears below site title in masthead
+subtitle_zh              : "机器智能与超适应实验室"  # 新增：中文副标题
 name                     : "Huiping Zhuang"
 description              : "A lab at the South China Univeristy of Technology."
 url                      : "https://miaa.cc" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -114,8 +115,8 @@ analytics:
 # Site Author
 author:
   name             : "Huiping Zhuang"
-  avatar           : "/assets/images/profile.png"
-  bio              : "Research Scientist"
+  avatar           : "/assets/images/profile/advisor/Huiping-Zhuang.jpg"
+  bio              : "Advisor"
   location         : "Guangzhou, China"
   email            :
   links:
@@ -209,6 +210,10 @@ incremental: false
 
 
 # Markdown Processing
+# 在现有配置中添加这些设置
+quiet: true  # 减少构建时的详细输出
+
+# 更新kramdown配置以避免warning
 kramdown:
   input: GFM
   hard_wrap: false
@@ -218,16 +223,22 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge  # 明确指定语法高亮器
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 
 
 # Sass/SCSS
+# 在现有配置中添加
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
+  quiet_deps: true  # 抑制依赖库的warning
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:year-:month-:day-:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -256,6 +267,12 @@ pagination:
     before: 2
     after: 2
 
+
+# Collections
+collections:
+  posts-cn:
+    output: true
+    permalink: /zh/:name/
 
 # Plugins (previously gems:)
 plugins:
@@ -325,3 +342,17 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _posts-cn
+  - scope:
+      path: ""
+      type: posts-cn
+      lang: zh-CN
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      show_date: true
+      lang: zh-CN

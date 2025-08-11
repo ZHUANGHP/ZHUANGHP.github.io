@@ -1,0 +1,16 @@
+# Chinese navigation links
+main:
+  - title: "新闻"
+    url: /zh/news/ 
+  - title: "研究方向" 
+    url: /zh/research/
+  - title: "发表论文"
+    url: /zh/publications/
+  - title: "团队成员"
+    url: /zh/members/
+  - title: "项目"
+    url: /zh/projects/
+  - title: "活动"
+    url: /zh/events/
+  - title: "联系我们"
+    url: /zh/contact/

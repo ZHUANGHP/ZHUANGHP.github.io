@@ -1,14 +1,16 @@
 ---
-permalink: /publications/
+permalink: /zh/publications/
 layout: collection
-title: "Publications"
+title: "出版物"
+classes: wide
+lang: zh-CN
 header:
   overlay_image: /assets/images/publication.png
   overlay_filter: 0.25  
 ---
 
 ### 2025
-#### Conference Papers
+#### 会议论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2025-7.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -21,7 +23,7 @@ header:
   </div>
 </div>
 
-#### Journal Papers
+#### 期刊论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2025-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -96,7 +98,7 @@ header:
 
 
 
-#### Preprint Papers
+#### 预印本论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2025-8.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -207,7 +209,7 @@ header:
 
 ### 2024
 
-#### Conference Papers
+#### 会议论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -316,7 +318,7 @@ header:
   </div>
 </div>
 
-#### Journal Papers
+#### 期刊论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-2.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -413,7 +415,7 @@ header:
   </div>
 </div>
 
-#### Preprint Papers
+#### 预印本论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-18.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -584,7 +586,7 @@ header:
 
 ### 2023
 
-#### Conference Papers
+#### 会议论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2023-3.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -621,7 +623,7 @@ header:
   </div>
 </div>
 
-#### Journal Papers
+#### 期刊论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2023-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -658,7 +660,7 @@ header:
   </div>
 </div>
 
-#### Preprint Papers
+#### 预印本论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2023-7.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -673,7 +675,7 @@ header:
 
 ### 2022
 
-#### Conference Papers
+#### 会议论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2022-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">

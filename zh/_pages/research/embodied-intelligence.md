@@ -1,6 +1,6 @@
 ---
-title: "Embodied Intelligence"
-permalink: /research/embodied-intelligence/
+title: "具身智能"
+permalink: /zh/research/embodied-intelligence/
 layout: single
 classes: wide
 ---
@@ -13,10 +13,10 @@ classes: wide
 }
 
 .project-description {
+  font-size: 0.85em;
   margin-bottom: 30px;
   text-align: justify;
   line-height: 1.6;
-  font-size: 0.85em;
 }
 
 .project-box {
@@ -46,6 +46,7 @@ classes: wide
 
 .project-content {
   padding: 20px;
+  font-size: 0.85em;
   text-align: justify;
   line-height: 1.5;
 }
@@ -87,7 +88,7 @@ classes: wide
 
 
 <div class="project-description">
-  Our Embodied Intelligence research focuses on how intelligence emerges from the interaction between an agent's physical body and its control systems. We develop AI methods that leverage this physical embodiment to enhance adaptability in changing environments, creating more robust and responsive autonomous systems.
+  我们的具身智能研究聚焦于智能如何由智能体的物理躯体与其控制系统之间的交互而涌现。我们开发能够利用这种物理具身性的 AI 方法，以提升在不断变化环境中的适应能力，从而构建更强健、响应更迅捷的自主系统。
 </div>
 
 <div class="project-box">
@@ -95,7 +96,7 @@ classes: wide
     <a href="#">Analytic Task Scheduler: Recursive Least Squares-Based Method for Continual Learning in Embodied Foundation Models</a>
   </div>
   <div class="project-content">
-    In this work, we propose the Analytic Task Scheduler (ATS), a novel framework for continual learning in embodied foundation models. ATS consists of a task-specific model library, where each model is fine-tuned independently on a single task, and an analytic scheduler trained using recursive least squares (RLS) to learn the mapping between language instructions and task-specific models. We validate ATS on a real-world robot platform (RM65B), demonstrating superior resistance to forgetting and strong adaptability to task variations.
+    本工作提出解析任务调度器（ATS），一种面向具身基础模型的持续学习新框架。ATS 包含一个任务专用模型库，其中每个模型均独立地在单一任务上微调；并配备一个以递归最小二乘（RLS）训练的解析调度器，用于学习语言指令与任务专用模型之间的映射。我们在真实机器人平台 RM65B 上验证了 ATS，实验表明其具有卓越的抗遗忘能力与对任务变化的强大适应性。
   </div>
   <div class="project-image">
     <img src="/assets/images/research/EI/ATS.png" alt="Analytic Task Scheduler">
@@ -113,7 +114,7 @@ classes: wide
     <a href="#">Robo-Peekaboo: Let robot think again based on a dual agents workflow</a>
   </div>
   <div class="project-content">
-    We use multi-agent systems for environmental perception in embodied grasping systems, complex task decomposition, and whole-process rethinking, where each agent utilizes a shared memory bank for token prediction. To align with human intent, we developed a dual-agent loop that improves the grasping success rate by 25% compared to SOTA, and we embedded each agent's token output into a latent space for collaborative optimization.
+    我们在具身抓取系统中采用多智能体架构完成环境感知、复杂任务分解以及全过程反思；各智能体通过共享记忆库进行 token 预测。为了贴合人类意图，我们设计了一种双智能体闭环，将抓取成功率相比当前最优方法提升 25%，并把每个智能体的 token 输出嵌入潜在空间，以实现协同优化。
   </div>
   <div class="project-video" style="padding: 0 20px 20px; text-align: center;">
     <video width="100%" autoplay muted loop>
@@ -123,4 +124,4 @@ classes: wide
   </div>
 </div>
 
-<a href="/research" class="back-link">← Back to Research</a>
+<a href="/research" class="back-link">← 返回</a>

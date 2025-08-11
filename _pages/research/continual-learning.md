@@ -13,6 +13,7 @@ classes: wide
 }
 
 .project-description {
+  font-size: 0.85em;
   margin-bottom: 30px;
   text-align: justify;
   line-height: 1.6;
@@ -29,7 +30,7 @@ classes: wide
 .project-heading {
   background-color: #f8f8f8;
   padding: 15px 20px;
-  font-size: 1.4em;
+  font-size: 0.9em;
   font-weight: bold;
   border-bottom: 1px solid #eaeaea;
 }

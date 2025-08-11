@@ -1,0 +1,16 @@
+# Chinese author configuration
+name: "庄辉平"
+avatar: "/assets/images/profile/advisor/Huiping-Zhuang.jpg"
+bio: "导师"
+location: "中国广州"
+email: 
+links:
+  - label: "邮箱"
+    icon: "fas fa-fw fa-envelope-square"
+    url: "mailto:hpzhuang@scut.edu.cn"
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/ZHUANGHP"
+  - label: "谷歌学术"
+    icon: "fa-brands fa-google-scholar"
+    url: "https://scholar.google.com.sg/citations?user=vCXxuLkAAAAJ&hl=en"

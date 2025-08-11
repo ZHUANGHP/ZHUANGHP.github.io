@@ -1,11 +1,24 @@
 <!-- begin _includes/seo.html -->
+{%- comment -%} Check if this is a Chinese page {%- endcomment -%}
+{%- assign is_chinese = false -%}
+{%- if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' -%}
+  {%- assign is_chinese = true -%}
+{%- endif -%}
+
+{%- comment -%} Set site title based on language {%- endcomment -%}
+{%- if is_chinese -%}
+  {%- assign site_title = "MIAA 实验室" -%}
+{%- else -%}
+  {%- assign site_title = site.title -%}
+{%- endif -%}
+
 {%- assign title_separator = site.title_separator | default: '-' -%}
 
-{%- assign page_title = page.title | default: site.title | replace: '|', '&#124;' -%}
-{%- if page_title contains site.title -%}
+{%- assign page_title = page.title | default: site_title | replace: '|', '&#124;' -%}
+{%- if page_title contains site_title -%}
   {%- assign seo_title = page_title | replace: '|', '&#124;' -%}
 {%- else -%}
-  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site.title | replace: '|', '&#124;' -%}
+  {%- assign seo_title = page_title | append: " " | append: title_separator | append: " " | append: site_title | replace: '|', '&#124;' -%}
 {%- endif -%}
 
 {%- assign page_title = page_title | markdownify | strip_html | strip_newlines | escape_once -%}
@@ -47,7 +60,7 @@
 
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:site_name" content="{{ site_title }}">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:url" content="{{ canonical_url }}">
 

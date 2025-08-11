@@ -1,5 +1,8 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
-
+{% assign nav = site.data.navigation.main %}
+{% if page.lang == 'zh-CN' %}
+  {% assign nav = site.data.navigation_zh.main %}
+{% endif %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -9,19 +12,30 @@
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+          {% if page.lang == 'zh-CN' %}
+            {% if site.subtitle_zh %}<span class="site-subtitle">{{ site.subtitle_zh }}</span>{% endif %}
+          {% else %}
+            {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+          {% endif %}
         </a>
         <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
+          {%- for link in nav -%}
             <li class="masthead__menu-item">
               <a
                 href="{{ link.url | relative_url }}"
                 {% if link.description %} title="{{ link.description }}"{% endif %}
                 {% if link.target %} target="{{ link.target }}"{% endif %}
-              >{{ link.title }}</a>
+              >{{  link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
+        <!-- Language Selector -->
+        
+        <select id="language-select" style="margin-left: 2em; font-size: 0.75em;" aria-label="Language">
+          <option value="en" {% if site.locale == 'en' %}selected{% endif %}>English</option>
+          <option value="zh" {% if site.locale == 'zh' %}selected{% endif %}>中文</option>        
+        </select>
+          
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>

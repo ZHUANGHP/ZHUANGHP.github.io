@@ -1,0 +1,21 @@
+# Chinese Research Areas
+- image_path: /assets/images/research/continual-learning.jpg
+  title: "持续学习"
+  excerpt: "研究机器学习模型在不断变化的环境中持续学习新知识而不遗忘旧知识的能力。我们专注于开发新的算法和架构，使AI系统能够像人类一样终身学习。"
+  url: "/zh/research/continual-learning/"
+  btn_label: "了解更多"
+  btn_class: "btn--primary btn--small"
+
+- image_path: /assets/images/research/llm.jpg
+  title: "大语言模型"
+  excerpt: "探索大规模语言模型的训练、优化和应用。我们致力于提高模型的效率、可解释性和安全性，并开发新的应用场景和部署策略。"
+  url: "/zh/research/large-language-models/"
+  btn_label: "了解更多"
+  btn_class: "btn--primary btn--small"
+
+- image_path: /assets/images/research/embodied-ai.jpg
+  title: "具身智能"
+  excerpt: "研究智能体在物理世界中的感知、决策和行动能力。我们开发能够理解和操作真实环境的机器人系统，实现人机协作和自主导航。"
+  url: "/zh/research/embodied-intelligence/"
+  btn_label: "了解更多"
+  btn_class: "btn--primary btn--small"
