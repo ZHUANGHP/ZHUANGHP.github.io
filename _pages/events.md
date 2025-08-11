@@ -236,22 +236,6 @@ header:
       </div> -->
     </div>
     <div class="event-item">
-      <div class="event-date">2025-06-15</div>
-      <div class="event-title">
-        ICML 2025 Workshop on Continual Learning
-        <!-- <span class="event-status status-upcoming">即将举行</span> -->
-        <span class="event-status status-past">Ended</span> 
-      </div>
-      <div class="event-location">📍 Vienna, Austria</div>
-      <div class="event-summary">
-        The MIAA lab will present the latest research results at the ICML 2025 Continual Learning Workshop, including analysis of continual learning theory and embodied AI applications.
-      </div>
-      <div class="event-links">
-        <a href="https://icml.cc/" class="event-link">🔗 ICML 2025</a>
-        <a href="https://icml.cc/workshops/2025/continual-learning" class="event-link">📄 Workshop Details</a>
-      </div>
-    </div>
-    <div class="event-item">
       <div class="event-date">2025-06-12 2:30pm</div>
       <div class="event-title">
          AI in 5 Minutes – Episode 5

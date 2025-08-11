@@ -191,12 +191,12 @@ header:
   <div class="event-item">
       <div class="event-date">2025-08-23 13:30-16:00</div>
       <div class="event-title">
-        庄辉平教授将在中国多媒体大会（ChinaMM）2025分享talk
-        <span class="event-status status-upcoming">Upcoming</span>
+        庄辉平教授将在中国多媒体大会（ChinaMM）2025分享报告
+        <span class="event-status status-upcoming">即将举行</span>
       </div>
       <div class="event-location">📍 山东，威海</div>
       <div class="event-summary">
-        庄辉平教授将分享题为“分析连续学习：一种通过等价递归闭式解高效获取知识的新方法”的talk。
+        庄辉平教授将分享题为“解析持续学习：基于等价递归闭式解的高效知识持续获取新方法”的报告。
       </div>
       <div class="event-links">
         <a href="https://mp.weixin.qq.com/s/lHD39RBwgu8ccTtao70NKw" class="event-link">📰 详情</a>
@@ -236,22 +236,7 @@ header:
         <a href="#" class="event-link">📧 联系我们</a>
       </div> -->
     </div>
-    <div class="event-item">
-      <div class="event-date">2025-06-15</div>
-      <div class="event-title">
-        ICML 2025 持续学习研讨会
-        <!-- <span class="event-status status-upcoming">即将举行</span> -->
-        <span class="event-status status-past">已结束</span> 
-      </div>
-      <div class="event-location">📍 奥地利维也纳</div>
-      <div class="event-summary">
-        MIAA实验室将在ICML 2025持续学习研讨会上展示最新研究成果，包括持续学习理论分析和具身AI应用。
-      </div>
-      <div class="event-links">
-        <a href="https://icml.cc/" class="event-link">🔗 ICML 2025</a>
-        <a href="https://icml.cc/workshops/2025/continual-learning" class="event-link">📄 研讨会详情</a>
-      </div>
-    </div>
+    
     <div class="event-item">
       <div class="event-date">2025-06-12 14:30</div>
       <div class="event-title">

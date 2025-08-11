@@ -1,5 +1,5 @@
 ---
-title: "3 papers accepted by NeurIPS 2024"
+title: "We have 3 papers accepted by NeurIPS 2024"
 date: 2024-09-26
 ---
 
