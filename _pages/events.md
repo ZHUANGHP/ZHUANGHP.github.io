@@ -197,7 +197,9 @@ header:
       <div class="event-summary">
         Prof. Zhuang will share a talk on "Analytic Continual Learning: A Novel Approach for Efficient Knowledge Acquisition via Equivalent Recursive Closed-Form Solutions" in ChinaMM 2025.
       </div>
-      
+      <div class="event-links">
+        <a href="https://mp.weixin.qq.com/s/lHD39RBwgu8ccTtao70NKw" class="event-link">📰 details</a>
+      </div>
     </div>
     <div class="event-item">
       <div class="event-date">TBD</div>
@@ -210,9 +212,7 @@ header:
        We are offering free courses for undergradute students to participate in training on basic researching techniques related to artificial intelligence, large models, and embodied intelligence. After completing the camp, participants can join the team in national/international competitions, publish papers, and other activities.
       </div>
     </div>
-    <div class="event-links">
-        <a href="https://mp.weixin.qq.com/s/lHD39RBwgu8ccTtao70NKw" class="event-link">📰 details</a>
-      </div>
+    
     
   </div>
 </div>
