@@ -188,6 +188,20 @@ header:
 <div class="events-section">
   <h2 class="section-heading">即将举行的活动</h2>
   <div class="events-timeline">
+  <div class="event-item">
+      <div class="event-date">2025-08-23 13:30-16:00</div>
+      <div class="event-title">
+        庄辉平教授将在中国多媒体大会（ChinaMM）2025分享talk
+        <span class="event-status status-upcoming">Upcoming</span>
+      </div>
+      <div class="event-location">📍 山东，威海</div>
+      <div class="event-summary">
+        庄辉平教授将分享题为“分析连续学习：一种通过等价递归闭式解高效获取知识的新方法”的talk。
+      </div>
+      <div class="event-links">
+        <a href="https://mp.weixin.qq.com/s/lHD39RBwgu8ccTtao70NKw" class="event-link">📰 详情</a>
+      </div>
+    </div>
     <div class="event-item">
       <div class="event-date">TBD</div>
       <div class="event-title">
