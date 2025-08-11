@@ -1,16 +1,29 @@
 source "https://rubygems.org"
 
-# 锁定 Jekyll 版本（可选，但推荐）
-gem "jekyll", "~> 4.3"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
 
-# 使用 minimal-mistakes 主题
-gem "minimal-mistakes-jekyll", "~> 4.26"
+# gem "github-pages", group: :jekyll_plugins
 
-# 显式列出主题依赖的插件（GitHub Actions 不会自动加载它们）
+# To upgrade, run `bundle update`.
+
+gem "jekyll"
+gem "minimal-mistakes-jekyll"
+gem "sass-embedded"
+# The following plugins are automatically loaded by the theme-gem:
+#   gem "jekyll-paginate"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-gist"
+#   gem "jekyll-feed"
+#   gem "jekyll-include-cache"
+#
+# If you have any other plugins, put them here!
+# Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jekyll-include-cache"
 end
