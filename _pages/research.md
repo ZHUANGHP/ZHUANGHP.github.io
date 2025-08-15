@@ -112,7 +112,7 @@ header:
 </style>
 
 
-At MIAA Lab, we explore cutting-edge technologies and methodologies to advance the state of artificial intelligence. Our research focuses on three main directions that represent our commitment to pushing the boundaries of machine intelligence and adaptation capabilities.
+At MIAA Lab, we focuses on three main research directions, i.e., Continual Learning, Large Model, and Embodied AI.
 <div class="research-areas">
   <div class="research-area">
     <div class="research-area-image">
