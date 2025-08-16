@@ -1,5 +1,5 @@
 ---
-title: "Large Language Models"
+title: "Large Models"
 permalink: /research/large-language-models/
 layout: single
 classes: wide

@@ -21,7 +21,7 @@
 
         <div class="archive__item-body">
           {% if f.title %}
-            <h5 class="archive__item-title" style="font-size: 0.8em;text-align: center;">{{ f.title }}</h5>
+            <h5 class="archive__item-title" style="font-size: 0.8em;text-align: center;"><a href="{{ f.url | relative_url }}" >{{ f.title }}</a></h5>
           {% endif %}
 
           {% if f.excerpt %}

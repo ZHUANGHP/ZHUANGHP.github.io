@@ -141,7 +141,7 @@ At MIAA Lab, we explore cutting-edge technologies and methodologies to advance t
       <img src="/assets/images/research/LLM.png" alt="Large Language Models">
     </div>
     <div class="research-area-content">
-      <div class="research-area-title">Large Language Models</div>
+      <div class="research-area-title">Large Models</div>
       <div class="research-area-description">Advancing the capabilities of large models including vision and language models, and multi-modal models</div>
       <a href="/research/large-language-models" class="research-btn">Learn More</a>
     </div>
