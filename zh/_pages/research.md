@@ -142,7 +142,7 @@ header:
       <img src="/assets/images/research/LLM.png" alt="大语言模型">
     </div>
     <div class="research-area-content">
-      <div class="research-area-title">大语言模型</div>
+      <div class="research-area-title">大模型</div>
       <div class="research-area-description">推进大模型相关研究，包括大视觉、大语言模型以及多模态大模型</div>
       <a href="/zh/research/large-language-models" class="research-btn">了解更多</a>
     </div>
