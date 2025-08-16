@@ -3,6 +3,7 @@ title: "大模型"
 permalink: /zh/research/large-language-models/
 layout: single
 classes: wide
+lang: zh-CN
 ---
 
 <style>

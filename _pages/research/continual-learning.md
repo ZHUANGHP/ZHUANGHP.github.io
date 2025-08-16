@@ -75,7 +75,7 @@ classes: wide
 </style>
 
 <div class="project-description">
-  Our research in Continual Learning focuses on developing AI systems that can continuously acquire and refine knowledge over time without forgetting previously learned information. We utilize analytical learning approaches to create methods that efficiently adapt to new data while preserving existing capabilities.
+  In the field of continual learning, our team pioneered a new branch: <strong>Analytic Continual Learning (ACL)</strong>. By adopting traditional machine learning methods and an extended version of recursive least squares with analytical derivations, we developed a novel continual learning framework that achieves conditionally complete non-forgetting. Over the past 2 years, more than 15 papers on this branch have been published in top conferences such as ICML, NeurIPS, CVPR, etc.
 </div>
 
 <div class="project-box">

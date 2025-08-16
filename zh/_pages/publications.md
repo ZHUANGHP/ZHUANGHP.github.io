@@ -1,7 +1,7 @@
 ---
 permalink: /zh/publications/
 layout: collection
-title: "出版物"
+title: "学术成果"
 classes: wide
 lang: zh-CN
 header:

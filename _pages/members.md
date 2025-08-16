@@ -205,16 +205,6 @@ header:
   <h2 class="section-heading">Master Students</h2>
   <div class="members-grid">
     <div class="member-card">
-      <img src="/assets/images/profile/master/He-Han.jpg" alt="He Han" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">He Han (韩贺)</div>
-        <div class="member-role">Master Student, 2022</div>
-        <div class="member-email">virushan@163.com</div>
-        <div class="member-research">Continual Learning, Hardware Deployment (持续学习，硬件部署)</div>
-      </div>
-    </div>
-    
-    <div class="member-card">
       <img src="/assets/images/profile/master/Run-He.jpg" alt="Run He" class="member-photo">
       <div class="member-info">
         <div class="member-name">Run He (何润)</div>
@@ -500,6 +490,21 @@ header:
         <div class="member-role">Undergraduate, 2024</div>
         <div class="member-email">wigenglianxin1104@mail.scut.edu.cn</div>
         <div class="member-research">Embodied Intelligence (具身智能)</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="members-section">
+  <h2 class="section-heading">Alumni</h2>
+  <div class="members-grid">
+    <div class="member-card">
+      <img src="/assets/images/profile/master/He-Han.jpg" alt="He Han" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">He Han (韩贺)</div>
+        <div class="member-role">Master Student, 2022</div>
+        <div class="member-email">virushan@163.com</div>
+        <div class="member-research">Continual Learning, Hardware Deployment (持续学习，硬件部署)</div>
       </div>
     </div>
   </div>

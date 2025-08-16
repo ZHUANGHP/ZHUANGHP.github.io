@@ -112,7 +112,7 @@ header:
 }
 </style>
 
-<div class="research-area-content"><p>在MIAA实验室，我们探索前沿技术和方法论，以推进人工智能的发展。</p><p>我们的研究专注于三个主要方向，体现了我们对推动机器智能和适应能力边界的承诺。</p><div>
+<div class="research-area-content"><p>在MIAA实验室，我们探索前沿技术和方法论，以推进人工智能的发展。</p><p>我们实验室主要的研究方向有三块：持续学习、具身智能、大模型，以及这些研究方向的交叉融合。</p><div>
 
 <div class="research-areas">
   <div class="research-area">
@@ -128,7 +128,7 @@ header:
   
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/research/EI.jpg" alt="具身智能">
+      <img src="/assets/images/research/EI.png" alt="具身智能">
     </div>
     <div class="research-area-content">
       <div class="research-area-title">具身智能</div>
@@ -143,7 +143,7 @@ header:
     </div>
     <div class="research-area-content">
       <div class="research-area-title">大语言模型</div>
-      <div class="research-area-description">推进大语言模型的能力并将其与具身系统集成</div>
+      <div class="research-area-description">推进大模型相关研究，包括大视觉、大语言模型以及多模态大模型</div>
       <a href="/zh/research/large-language-models" class="research-btn">了解更多</a>
     </div>
   </div>

@@ -112,7 +112,7 @@ header:
 </style>
 
 
-At MIAA Lab, we focuses on three main research directions, i.e., Continual Learning, Large Model, and Embodied AI.
+At MIAA Lab, we explore cutting-edge technologies and methodologies to advance the state of artificial intelligence. Our research focuses on three main directions that represent our commitment to pushing the boundaries of machine intelligence and adaptation capabilities.
 <div class="research-areas">
   <div class="research-area">
     <div class="research-area-image">
@@ -120,14 +120,14 @@ At MIAA Lab, we focuses on three main research directions, i.e., Continual Learn
     </div>
     <div class="research-area-content">
       <div class="research-area-title">Continual Learning</div>
-      <div class="research-area-description">Developing systems that learn continuously over time without forgetting previous knowledge</div>
+      <div class="research-area-description">Developing systems that learn continually over time without forgetting previous knowledge</div>
       <a href="/research/continual-learning" class="research-btn">Learn More</a>
     </div>
   </div>
   
   <div class="research-area">
     <div class="research-area-image">
-      <img src="/assets/images/research/EI.jpg" alt="Embodied Intelligence">
+      <img src="/assets/images/research/EI.png" alt="Embodied Intelligence">
     </div>
     <div class="research-area-content">
       <div class="research-area-title">Embodied Intelligence</div>
@@ -142,7 +142,7 @@ At MIAA Lab, we focuses on three main research directions, i.e., Continual Learn
     </div>
     <div class="research-area-content">
       <div class="research-area-title">Large Language Models</div>
-      <div class="research-area-description">Advancing the capabilities of large language models and integrating them with embodied systems</div>
+      <div class="research-area-description">Advancing the capabilities of large models including vision and language models, and multi-modal models</div>
       <a href="/research/large-language-models" class="research-btn">Learn More</a>
     </div>
   </div>

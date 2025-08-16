@@ -3,6 +3,7 @@ title: "具身智能"
 permalink: /zh/research/embodied-intelligence/
 layout: single
 classes: wide
+lang: zh-CN
 ---
 
 <style>

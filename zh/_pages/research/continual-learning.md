@@ -2,6 +2,7 @@
 title: "持续学习"
 permalink: /zh/research/continual-learning/
 layout: single
+lang: zh-CN
 classes: wide
 ---
 
@@ -76,7 +77,7 @@ classes: wide
 </style>
 
 <div class="project-description">
-  我们的持续学习研究旨在开发能够随时间不断获取并完善知识的 AI 系统，而不会遗忘先前学到的信息。我们采用分析式学习方法，构建能在保留既有能力的同时高效适应新数据的机制。
+  在持续学习领域，团队开创了一个全新的分支：解析持续学习。采用传统机器学习方法，利用最小二乘递归的扩展式递归推导，实现条件完全无遗忘特性的新型持续学习框架。近2年已在此分支发表超15篇CCF-A顶会。
 </div>
 
 <div class="project-box">
