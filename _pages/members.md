@@ -332,7 +332,7 @@ header:
   </div>
 </div>
 
-<div class="members-section">
+<!-- <div class="members-section">
   <h2 class="section-heading">Undergraduate Students</h2>
   <div class="members-grid">
     <div class="member-card">
@@ -493,7 +493,7 @@ header:
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="members-section">
   <h2 class="section-heading">Alumni</h2>

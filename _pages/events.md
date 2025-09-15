@@ -188,20 +188,6 @@ header:
   <h2 class="section-heading">Upcoming Events</h2>
   <div class="events-timeline">
     <div class="event-item">
-      <div class="event-date">2025-08-23 13:30-16:00</div>
-      <div class="event-title">
-        Prof. Zhuang will share a talk in ChinaMM 2025!
-        <span class="event-status status-upcoming">Upcoming</span>
-      </div>
-      <div class="event-location">📍 Weihai, Shandong</div>
-      <div class="event-summary">
-        Prof. Zhuang will share a talk on "Analytic Continual Learning: A Novel Approach for Efficient Knowledge Acquisition via Equivalent Recursive Closed-Form Solutions" in ChinaMM 2025.
-      </div>
-      <div class="event-links">
-        <a href="https://mp.weixin.qq.com/s/lHD39RBwgu8ccTtao70NKw" class="event-link">📰 details</a>
-      </div>
-    </div>
-    <div class="event-item">
       <div class="event-date">TBD</div>
       <div class="event-title">
         Research Training Camp (Machine and Intelligence Research Group)
