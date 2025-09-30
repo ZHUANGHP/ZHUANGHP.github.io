@@ -22,6 +22,28 @@ header:
     <a href="https://ieeexplore.ieee.org/abstract/document/10943862">Paper</a>
   </div>
 </div>
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-10.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>AnalyticKWS: towards exemplar-free analytic class incremental learning for small-footprint keyword spotting</strong><br>
+    <em>Yang Xiao, Tianyi Peng, Rohan Kumar Das, Yuchen Hu, Huiping Zhuang</em><br>
+    <em>Findings of the Association for Computational Linguistics: ACL 2025</em><br>
+    <a href="https://aclanthology.org/2025.findings-acl.728/">Paper</a>
+  </div>
+</div>
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-14.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings</strong><br>
+    <em>Weikai Lu, Hao Peng, Huiping Zhuang, Cen Chen, Ziqian Zeng</em><br>
+    <em>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em><br>
+    <a href="https://aclanthology.org/2025.acl-long.1212/">Paper</a>
+  </div>
+</div>
 
 #### 期刊论文
 <div style="display: flex; margin-bottom: 20px;">
@@ -125,18 +147,6 @@ header:
 
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-10.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>AnalyticKWS: towards exemplar-free analytic class incremental learning for small-footprint keyword spotting</strong><br>
-    <em>Yang Xiao, Tianyi Peng, Rohan Kumar Das, Yuchen Hu, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2505.11817</em><br>
-    <a href="https://arxiv.org/abs/2505.11817">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2025-11.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
@@ -171,17 +181,6 @@ header:
   </div>
 </div>
 
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-14.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings</strong><br>
-    <em>Weikai Lu, Hao Peng, Huiping Zhuang, Cen Chen, Ziqian Zeng</em><br>
-    <em>arXiv preprint arXiv:2502.12562</em><br>
-    <a href="https://arxiv.org/abs/2502.12562">Paper</a>
-  </div>
-</div>
 
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
