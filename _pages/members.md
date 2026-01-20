@@ -198,6 +198,17 @@ header:
         <div class="member-research">Continual Learning, MultiModal Learning (持续学习，多模态学习)</div>
       </div>
     </div>
+
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Xiang-Tan.jpg" alt="Xiang Tan" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">Xiang Tan (谭翔)</div>
+        <div class="member-role">PhD Student, 2026</div>
+        <div class="member-email">202421061051@mail.scut.edu.cn</div>
+        <div class="member-research">Continual Learning, Large Language Model (持续学习，大语言模型)</div>
+      </div>
+    </div>    
+
   </div>
 </div>
 
@@ -254,15 +265,7 @@ header:
       </div>
     </div>
     
-    <div class="member-card">
-      <img src="/assets/images/profile/master/Xiang-Tan.jpg" alt="Xiang Tan" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">Xiang Tan (谭翔)</div>
-        <div class="member-role">Master Student, 2024</div>
-        <div class="member-email">202421061051@mail.scut.edu.cn</div>
-        <div class="member-research">Continual Learning, Large Language Model (持续学习，大语言模型)</div>
-      </div>
-    </div>
+
     
     <div class="member-card">
       <img src="/assets/images/profile/master/Xiang-Zhang.jpg" alt="Xiang Zhang" class="member-photo">
