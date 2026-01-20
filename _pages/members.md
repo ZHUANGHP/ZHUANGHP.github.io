@@ -299,8 +299,8 @@ header:
       <div class="member-info">
         <div class="member-name">Ziqi Luo (罗梓齐)</div>
         <div class="member-role">Master Student, 2025</div>
-        <div class="member-email">2441806052@qq.com</div>
-        <div class="member-research">Embodied Intelligence (具身智能)</div>
+        <div class="member-email">msziqiluo@mail.scut.edu.cn</div>
+        <div class="member-research">Large Models (大模型)</div>
       </div>
     </div>
     
