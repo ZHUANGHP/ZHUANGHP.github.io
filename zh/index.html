@@ -80,7 +80,8 @@ feature_row:
     </div>
     <div class="news-scroll-container">
         <ul class="compact-news-list">
-          {% for post in site.posts-cn limit:10 %}
+          {% assign sorted_posts = site.posts-cn | sort: 'date' | reverse %}
+          {% for post in sorted_posts limit:10 %}
             <li class="compact-news-item">
               <div class="news-date-badge">{{ post.date | date: "%Y年%m月%d日" }}</div>
               <div class="news-brief">
@@ -89,7 +90,7 @@ feature_row:
             </li>
           {% endfor %}
           <!-- Duplicate for seamless loop -->
-          {% for post in site.posts-cn limit:10 %}
+          {% for post in sorted_posts limit:10 %}
             <li class="compact-news-item">
               <div class="news-date-badge">{{ post.date | date: "%Y年%m月%d日" }}</div>
               <div class="news-brief">

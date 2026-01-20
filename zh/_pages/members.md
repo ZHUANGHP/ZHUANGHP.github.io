@@ -300,8 +300,8 @@ header:
       <div class="member-info">
         <div class="member-name">罗梓齐 (Ziqi Luo)</div>
         <div class="member-role">硕士研究生, 2025级</div>
-        <div class="member-email">2441806052@qq.com</div>
-        <div class="member-research">具身智能 (Embodied Intelligence)</div>
+        <div class="member-email">msziqiluo@mail.scut.edu.cn</div>
+        <div class="member-research">大模型 (Large Models)</div>
       </div>
     </div>
     
