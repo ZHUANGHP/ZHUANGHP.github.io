@@ -9,17 +9,35 @@ header:
 
 ### 2025
 #### Conference Papers
+
+
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-7.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+    <img src="/assets/images/papers/2025-17.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>ReFu: Recursive Fusion for Exemplar-Free 3D Class-Incremental Learning</strong><br>
-    <em>Yi Yang, Lei Zhong, Huiping Zhuang</em><br>
-    <em>2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em><br>
-    <a href="https://ieeexplore.ieee.org/abstract/document/10943862">Paper</a>
+    <strong>Probabilistic Mixture of Hyperbolic Mamba for Few-Shot Class-Incremental Learning</strong><br>
+    <em>Y Cui, W Zou, Huiping Zhuang, Y Wang, LP Chau</em><br>
+    <em>Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM 2025)</em><br>
+    <a href="https://dl.acm.org/doi/10.1145/3746027.3755306">Paper</a>
   </div>
 </div>
+
+
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-18.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>CFSSeg: Closed-Form Solution for Class-Incremental Semantic Segmentation of 2D Images and 3D Point Clouds</strong><br>
+    <em>J Li, R Li, J Qi, S Lai, L Lv, K Fan, J Tang, Y Yue, D Zhou, Y Liu, Huiping Zhuang</em><br>
+    <em>Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM 2025)</em><br>
+    <a href="https://arxiv.org/abs/2412.10834">Paper</a>
+  </div>
+</div>
+
+
 
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
@@ -35,6 +53,80 @@ header:
 
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-19.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Genderalign: An alignment dataset for mitigating gender bias in large language models</strong><br>
+    <em>Tao Zhang, Ziqian Zeng, YuxiangXiao YuxiangXiao, Huiping Zhuang, Cen Chen, James R. Foulds, Shimei Pan</em><br>
+    <em>Findings of the Association for Computational Linguistics: ACL 2025</em><br>
+    <a href="https://aclanthology.org/2025.acl-long.553/">Paper</a>
+  </div>
+</div>
+
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-20.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Privacyrestore: Privacy-preserving inference in large language models via privacy removal and restoration</strong><br>
+    <em>Ziqian Zeng, Jianwei Wang, Junyao Yang, Zhengdong Lu, Haoran Li, Huiping Zhuang, Cen Chen</em><br>
+    <em>Findings of the Association for Computational Linguistics: ACL 2025</em><br>
+    <a href="https://aclanthology.org/2025.acl-long.532/">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-12.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Semantic Shift Estimation via Dual-Projection and Classifier Reconstruction for Exemplar-Free Class-Incremental Learning</strong><br>
+    <em>Run He, Di Fang, Yicheng Xu, Yawen Cui, Ming Li, Cen Chen, Ziqian Zeng, Huiping Zhuang</em><br>
+    <em>ICML 2025</em><br>
+    <a href="https://arxiv.org/abs/2503.05423">Paper</a>
+  </div>
+</div>
+
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-21.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>L3A: Label-Augmented Analytic Adaptation for Multi-Label Class Incremental Learning</strong><br>
+    <em>Xiang Zhang, Run He, Jiao Chen, Di Fang, Ming Li, Ziqian Zeng, Cen Chen, Huiping Zhuang</em><br>
+    <em>ICML 2025</em><br>
+    <a href="https://arxiv.org/abs/2506.00816">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-11.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Analytic Subspace Routing: How Recursive Least Squares Works in Continual Learning of Large Language Model</strong><br>
+    <em>Kai Tong, Kang Pan, Xiao Zhang, Erli Meng, Run He, Yawen Cui, Nuoyan Guo, Huiping Zhuang</em><br>
+    <em>ICCV 2025</em><br>
+    <a href="https://arxiv.org/abs/2503.13575">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2025-6.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>AFL: A Single-Round Analytic Approach for Federated Learning with Pre-trained Models</strong><br>
+    <em>Run He, Kai Tong, Di Fang, Han Sun, Haoran Li, Tianyi Chen, Ziqian Zeng, Huiping Zhuang</em><br>
+    <em>CVPR 2025</em><br>
+    <a href="https://arxiv.org/abs/2405.16240">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2025-14.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
@@ -44,6 +136,8 @@ header:
     <a href="https://aclanthology.org/2025.acl-long.1212/">Paper</a>
   </div>
 </div>
+
+
 
 #### Journal Papers
 <div style="display: flex; margin-bottom: 20px;">
@@ -108,7 +202,7 @@ header:
 
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-6.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+    <img src="/assets/images/papers/2025-17.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
     <strong>ResDecode: Accelerating Large Language Models Inference via Residual Decoding Heads</strong><br>
@@ -120,93 +214,7 @@ header:
 
 
 
-#### Preprint Papers
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-8.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>AFCL: Analytic Federated Continual Learning for Spatio-Temporal Invariance of Non-IID Data</strong><br>
-    <em>Jianheng Tang, Huiping Zhuang, Jingyu He, Run He, Jingchao Wang, Kejia Fan, Anfeng Liu, Tian Wang, Leye Wang, Zhanxing Zhu, Shanghang Zhang, Houbing Herbert Song, Yunhuai Liu</em><br>
-    <em>arXiv preprint arXiv:2505.12245</em><br>
-    <a href="https://arxiv.org/abs/2505.12245">Paper</a>
-  </div>
-</div>
 
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-9.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>ACU: Analytic Continual Unlearning for Efficient and Exact Forgetting with Privacy Preservation</strong><br>
-    <em>Jianheng Tang, Huiping Zhuang, Di Fang, Jiaxu Li, Feijiang Han, Yajiang Huang, Kejia Fan, Leye Wang, Zhanxing Zhu, Shanghang Zhang, Houbing Herbert Song, Yunhuai Liu</em><br>
-    <em>arXiv preprint arXiv:2505.12239</em><br>
-    <a href="https://arxiv.org/abs/2505.12239">Paper</a>
-  </div>
-</div>
-
-
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-11.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Analytic Subspace Routing: How Recursive Least Squares Works in Continual Learning of Large Language Model</strong><br>
-    <em>Kai Tong, Kang Pan, Xiao Zhang, Erli Meng, Run He, Yawen Cui, Nuoyan Guo, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2503.13575</em><br>
-    <a href="https://arxiv.org/abs/2503.13575">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-12.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Semantic Shift Estimation via Dual-Projection and Classifier Reconstruction for Exemplar-Free Class-Incremental Learning</strong><br>
-    <em>Run He, Di Fang, Yicheng Xu, Yawen Cui, Ming Li, Cen Chen, Ziqian Zeng, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2503.05423</em><br>
-    <a href="https://arxiv.org/abs/2503.05423">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-13.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>RewardDS: Privacy-Preserving Fine-Tuning for Large Language Models via Reward Driven Data Synthesis</strong><br>
-    <em>Jianwei Wang, Junyao Yang, Haoran Li, Huiping Zhuang, Cen Chen, Ziqian Zeng</em><br>
-    <em>arXiv preprint arXiv:2502.18517</em><br>
-    <a href="https://arxiv.org/abs/2502.18517">Paper</a>
-  </div>
-</div>
-
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-15.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>X-SG<sup>2</sup>_S: Safe and Generalizable Gaussian Splatting with X-dimensional Watermarks</strong><br>
-    <em>Zihang Cheng, Huiping Zhuang, Chun Li, Xin Meng, Ming Li, Fei Richard Yu, Liqiang Nie</em><br>
-    <em>arXiv preprint arXiv:2502.10475</em><br>
-    <a href="https://arxiv.org/abs/2502.10475">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2025-16.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>PAL: Prompting Analytic Learning with Missing Modality for Multi-Modal Class-Incremental Learning</strong><br>
-    <em>Xianghu Yue, Yiming Chen, Xueyi Zhang, Xiaoxue Gao, Mengling Feng, Mingrui Lao, Huiping Zhuang, Haizhou Li</em><br>
-    <em>arXiv preprint arXiv:2501.09352</em><br>
-    <a href="https://arxiv.org/abs/2501.09352">Paper</a>
-  </div>
-</div>
 
 ### 2024
 
