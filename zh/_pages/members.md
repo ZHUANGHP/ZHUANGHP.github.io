@@ -159,7 +159,6 @@ header:
       <div class="member-info">
         <div class="member-name">邹文斌 (Wenbin Zou)</div>
         <div class="member-role">博士研究生, 2022级</div>
-        <div class="member-email">alexzou14@foxmail.com</div>
         <div class="member-research">图像复原和生成 (Image Restoration and Generation)</div>
         <div class="member-links">
           <a href="https://alexzou14.github.io/" class="member-link" target="_blank">
@@ -175,7 +174,6 @@ header:
       <div class="member-info">
         <div class="member-name">童楷 (Kai Tong)</div>
         <div class="member-role">博士研究生, 2023级</div>
-        <div class="member-email">202310191640@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，大语言模型，强化学习 (Continual Learning, Large Language Model, Reinforcement Learning)</div>
       </div>
     </div>
@@ -185,7 +183,6 @@ header:
       <div class="member-info">
         <div class="member-name">王骏飞 (Junfei Wang)</div>
         <div class="member-role">博士研究生, 2024级</div>
-        <div class="member-email">773540700@qq.com</div>
         <div class="member-research">AI硬件加速器 (AI Hardware Accelerator)</div>
       </div>
     </div>
@@ -195,7 +192,6 @@ header:
       <div class="member-info">
         <div class="member-name">严越 (Yue Yan)</div>
         <div class="member-role">博士研究生, 2025级</div>
-        <div class="member-email">202030020410@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，多模态学习 (Continual Learning, MultiModal Learning)</div>
       </div>
     </div>
@@ -205,7 +201,6 @@ header:
       <div class="member-info">
         <div class="member-name">谭翔 (Xiang Tan)</div>
         <div class="member-role">博士研究生, 2026级</div>
-        <div class="member-email">202421061051@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，大语言模型 (Continual Learning, Large Language Model)</div>
       </div>
     </div>    
@@ -220,7 +215,6 @@ header:
       <div class="member-info">
         <div class="member-name">何润 (Run He)</div>
         <div class="member-role">硕士研究生, 2023级</div>
-        <div class="member-email">202320160030@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，联邦学习 (Continual Learning, Federated Learning)</div>
       </div>
     </div>
@@ -230,7 +224,6 @@ header:
       <div class="member-info">
         <div class="member-name">刘硕 (Shuo Liu)</div>
         <div class="member-role">硕士研究生, 2023级</div>
-        <div class="member-email">lius00@yeah.net</div>
         <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
       </div>
     </div>
@@ -240,7 +233,6 @@ header:
       <div class="member-info">
         <div class="member-name">李志明 (Zhiming Li)</div>
         <div class="member-role">硕士研究生, 2023级</div>
-        <div class="member-email">202321060202@mail.sut.edu.cn</div>
         <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
       </div>
     </div>
@@ -250,7 +242,6 @@ header:
       <div class="member-info">
         <div class="member-name">纪家楠 (Jianan Ji)</div>
         <div class="member-role">硕士研究生, 2024级</div>
-        <div class="member-email">202421060974@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，大模型强化微调 (Continual Learning, RL Finetuning of LLM)</div>
       </div>
     </div>
@@ -260,7 +251,6 @@ header:
       <div class="member-info">
         <div class="member-name">谢李培 (Lipei Xie)</div>
         <div class="member-role">硕士研究生, 2024级</div>
-        <div class="member-email">2275630040@qq.com</div>
         <div class="member-research">具身智能 (Embodied Intelligence)</div>
       </div>
     </div>
@@ -272,7 +262,6 @@ header:
       <div class="member-info">
         <div class="member-name">张翔 (Xiang Zhang)</div>
         <div class="member-role">硕士研究生, 2024级</div>
-        <div class="member-email">wizx@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，大模型强化微调 (Continual Learning, RL Finetuning of LLM)</div>
       </div>
     </div>
@@ -282,7 +271,6 @@ header:
       <div class="member-info">
         <div class="member-name">曹加龙 (Jialong Cao)</div>
         <div class="member-role">硕士研究生, 2025级</div>
-        <div class="member-email">202130130163@mail.scut.edu.cn</div>
         <div class="member-research">具身智能 (Embodied Intelligence)</div>
       </div>
     </div>
@@ -292,7 +280,6 @@ header:
       <div class="member-info">
         <div class="member-name">张所鑫 (Suoxin Zhang)</div>
         <div class="member-role">硕士研究生, 2025级</div>
-        <div class="member-email">zsx97973@163.com</div>
         <div class="member-research">大模型 (Large Models)</div>
       </div>
     </div>
@@ -302,7 +289,6 @@ header:
       <div class="member-info">
         <div class="member-name">罗梓齐 (Ziqi Luo)</div>
         <div class="member-role">硕士研究生, 2025级</div>
-        <div class="member-email">msziqiluo@mail.scut.edu.cn</div>
         <div class="member-research">大模型 (Large Models)</div>
       </div>
     </div>
@@ -312,7 +298,6 @@ header:
       <div class="member-info">
         <div class="member-name">方笛 (Di Fang)</div>
         <div class="member-role">硕士研究生, 2025级</div>
-        <div class="member-email">fti@mail.scut.edu.cn</div>
         <div class="member-research">持续学习，长尾学习 (Continual Learning, Long-tailed Learning)</div>
         <div class="member-links">
           <a href="https://fangd.net" class="member-link" target="_blank">
@@ -328,7 +313,6 @@ header:
       <div class="member-info">
         <div class="member-name">李颖欣 (Yingxin Li)</div>
         <div class="member-role">硕士研究生, 2024级 (联合培养)</div>
-        <div class="member-email">202420160664@mail.scut.edu.cn</div>
         <div class="member-research">具身智能 (Embodied Intelligence)</div>
       </div>
     </div>
@@ -505,7 +489,6 @@ header:
       <div class="member-info">
         <div class="member-name">韩贺 (He Han)</div>
         <div class="member-role">硕士研究生, 2022级</div>
-        <div class="member-email">virushan@163.com</div>
         <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
       </div>
     </div>

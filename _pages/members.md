@@ -158,7 +158,6 @@ header:
       <div class="member-info">
         <div class="member-name">Wenbin Zou (邹文斌)</div>
         <div class="member-role">PhD Student, 2022</div>
-        <div class="member-email">alexzou14@foxmail.com</div>
         <div class="member-research">Image Restoration and Generation (图像复原和生成)</div>
         <div class="member-links">
           <a href="https://alexzou14.github.io/" class="member-link" target="_blank">
@@ -174,7 +173,6 @@ header:
       <div class="member-info">
         <div class="member-name">Kai Tong (童楷)</div>
         <div class="member-role">PhD Student, 2023</div>
-        <div class="member-email">202310191640@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, Large Language Model, Reinforcement Learning (持续学习，大语言模型，强化学习)</div>
       </div>
     </div>
@@ -184,7 +182,6 @@ header:
       <div class="member-info">
         <div class="member-name">Junfei Wang (王骏飞)</div>
         <div class="member-role">PhD Student, 2024</div>
-        <div class="member-email">773540700@qq.com</div>
         <div class="member-research">AI Hardware Accelerator (AI硬件加速器)</div>
       </div>
     </div>
@@ -194,7 +191,6 @@ header:
       <div class="member-info">
         <div class="member-name">Yue Yan (严越)</div>
         <div class="member-role">PhD Student, 2025</div>
-        <div class="member-email">202030020410@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, MultiModal Learning (持续学习，多模态学习)</div>
       </div>
     </div>
@@ -204,7 +200,6 @@ header:
       <div class="member-info">
         <div class="member-name">Xiang Tan (谭翔)</div>
         <div class="member-role">PhD Student, 2026</div>
-        <div class="member-email">202421061051@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, Large Language Model (持续学习，大语言模型)</div>
       </div>
     </div>    
@@ -220,7 +215,6 @@ header:
       <div class="member-info">
         <div class="member-name">Run He (何润)</div>
         <div class="member-role">Master Student, 2023</div>
-        <div class="member-email">202320160030@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, Federated Learning (持续学习，联邦学习)</div>
       </div>
     </div>
@@ -230,7 +224,6 @@ header:
       <div class="member-info">
         <div class="member-name">Shuo Liu (刘硕)</div>
         <div class="member-role">Master Student, 2023</div>
-        <div class="member-email">lius00@yeah.net</div>
         <div class="member-research">Continual Learning, Hardware Deployment (持续学习，硬件部署)</div>
       </div>
     </div>
@@ -240,7 +233,6 @@ header:
       <div class="member-info">
         <div class="member-name">Zhiming Li (李志明)</div>
         <div class="member-role">Master Student, 2023</div>
-        <div class="member-email">202321060202@mail.sut.edu.cn</div>
         <div class="member-research">Continual Learning, Hardware Deployment (持续学习，硬件部署)</div>
       </div>
     </div>
@@ -250,7 +242,6 @@ header:
       <div class="member-info">
         <div class="member-name">Jianan Ji (纪家楠)</div>
         <div class="member-role">Master Student, 2024</div>
-        <div class="member-email">202421060974@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, RL Finetuning of LLM (持续学习，大模型强化微调)</div>
       </div>
     </div>
@@ -260,7 +251,6 @@ header:
       <div class="member-info">
         <div class="member-name">Lipei Xie (谢李培)</div>
         <div class="member-role">Master Student, 2024</div>
-        <div class="member-email">2275630040@qq.com</div>
         <div class="member-research">Embodied Intelligence (具身智能)</div>
       </div>
     </div>
@@ -272,7 +262,6 @@ header:
       <div class="member-info">
         <div class="member-name">Xiang Zhang (张翔)</div>
         <div class="member-role">Master Student, 2024</div>
-        <div class="member-email">wizx@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, RL Finetuning of LLM (持续学习，大模型强化微调)</div>
       </div>
     </div>
@@ -282,7 +271,6 @@ header:
       <div class="member-info">
         <div class="member-name">Jialong Cao (曹加龙)</div>
         <div class="member-role">Master Student, 2025</div>
-        <div class="member-email">202130130163@mail.scut.edu.cn</div>
         <div class="member-research">Embodied Intelligence (具身智能)</div>
       </div>
     </div>
@@ -292,7 +280,6 @@ header:
       <div class="member-info">
         <div class="member-name">Suoxin Zhang (张所鑫)</div>
         <div class="member-role">Master Student, 2025</div>
-        <div class="member-email">zsx97973@163.com</div>
         <div class="member-research">Large Models (大模型)</div>
       </div>
     </div>
@@ -302,7 +289,6 @@ header:
       <div class="member-info">
         <div class="member-name">Ziqi Luo (罗梓齐)</div>
         <div class="member-role">Master Student, 2025</div>
-        <div class="member-email">msziqiluo@mail.scut.edu.cn</div>
         <div class="member-research">Large Models (大模型)</div>
       </div>
     </div>
@@ -312,7 +298,6 @@ header:
       <div class="member-info">
         <div class="member-name">Di Fang (方笛)</div>
         <div class="member-role">Master Student, 2025</div>
-        <div class="member-email">fti@mail.scut.edu.cn</div>
         <div class="member-research">Continual Learning, Long-tailed Learning (持续学习，长尾学习)</div>
         <div class="member-links">
           <a href="https://fangd.net" class="member-link" target="_blank">
@@ -328,7 +313,6 @@ header:
       <div class="member-info">
         <div class="member-name">Yingxin Li (李颖欣)</div>
         <div class="member-role">Master Student, 2024 (Joint Training)</div>
-        <div class="member-email">202420160664@mail.scut.edu.cn</div>
         <div class="member-research">Embodied Intelligence (具身智能)</div>
       </div>
     </div>
@@ -506,7 +490,6 @@ header:
       <div class="member-info">
         <div class="member-name">He Han (韩贺)</div>
         <div class="member-role">Master Student, 2022</div>
-        <div class="member-email">virushan@163.com</div>
         <div class="member-research">Continual Learning, Hardware Deployment (持续学习，硬件部署)</div>
       </div>
     </div>
