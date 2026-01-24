@@ -225,7 +225,7 @@ header:
 ### 2024
 
 #### 会议论文
-div style="display: flex; margin-bottom: 20px;">
+<div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
