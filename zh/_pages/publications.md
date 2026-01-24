@@ -210,10 +210,22 @@ header:
   </div>
 </div>
 
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2024-28.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>REAL: Representation Enhanced Analytic Learning for Exemplar-free Class-incremental Learning</strong><br>
+    <em>Run He, Huiping Zhuang, Di Fang, Yizhu Chen, Kai Tong, Cen Chen</em><br>
+    <em>Knowledge-Based Systems</em><br>
+    <a href="https://arxiv.org/abs/2403.13522">Paper</a>
+  </div>
+</div>
+
 ### 2024
 
 #### 会议论文
-<div style="display: flex; margin-bottom: 20px;">
+div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
@@ -321,6 +333,18 @@ header:
   </div>
 </div>
 
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/papers/2024-30.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>Mitigating privacy risk in membership inference by convex-concave loss</strong><br>
+    <em>Zhenlong Liu, Lei Feng, Huiping Zhuang, Xiaofeng Cao, Hongxin Wei</em><br>
+    <em>ICML 2024</em><br>
+    <a href="https://arxiv.org/abs/2402.05453">Paper</a>
+  </div>
+</div>
+
 #### 期刊论文
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
@@ -418,174 +442,6 @@ header:
   </div>
 </div>
 
-#### 预印本论文
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-18.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>SegACIL: Solving the Stability-Plasticity Dilemma in Class-Incremental Semantic Segmentation</strong><br>
-    <em>Jiaxu Li, Songning Lai, Rui Li, Di Fang, Kejia Fan, Jianheng Tang, Yuhan Zhao, Rongchang Zhao, Dongzhan Zhou, Yutao Yue, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2412.10834</em><br>
-    <a href="https://arxiv.org/abs/2412.10834">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-19.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Analytic Continual Test-Time Adaptation for Multi-Modality Corruption</strong><br>
-    <em>Yufei Zhang, Yicheng Xu, Hongxin Wei, Zhiping Lin, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2410.22373</em><br>
-    <a href="https://arxiv.org/abs/2410.22373">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-20.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>TS-ACL: A Time Series Analytic Continual Learning Framework for Privacy-Preserving and Class-Incremental Pattern Recognition</strong><br>
-    <em>Kejia Fan, Jiaxu Li, Songning Lai, Linpu Lv, Anfeng Liu, Jianheng Tang, Houbing Herbert Song, Yutao Yue, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2410.15954</em><br>
-    <a href="https://arxiv.org/abs/2410.15954">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-21.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>C-Adapter: Adapting Deep Classifiers for Efficient Conformal Prediction Sets</strong><br>
-    <em>Kangdao Liu, Hao Zeng, Jianguo Huang, Huiping Zhuang, Chi-Man Vong, Hongxin Wei</em><br>
-    <em>arXiv preprint arXiv:2410.09408</em><br>
-    <a href="https://arxiv.org/abs/2410.09408">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-22.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>TS-ACL: Closed-Form Solution for Time Series-oriented Continual Learning</strong><br>
-    <em>Jiaxu Li, Kejia Fan, Songning Lai, Linpu Lv, Jinfeng Xu, Jianheng Tang, Anfeng Liu, Houbing Herbert Song, Yutao Yue, Yunhuai Liu, Huiping Zhuang</em><br>
-    <em>arXiv e-prints, arXiv: 2410.15954</em><br>
-    <a href="https://arxiv.org/abs/2410.15954">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-22.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>FACT: Feature Adaptive Continual-learning Tracker for Multiple Object Tracking</strong><br>
-    <em>Rongzihan Song, Zhenyu Weng, Huiping Zhuang, Jinchang Ren, Yongming Chen, Zhiping Lin</em><br>
-    <em>arXiv preprint arXiv:2409.07904</em><br>
-    <a href="https://arxiv.org/abs/2409.07904">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-23.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Air: Analytic imbalance rectifier for continual learning</strong><br>
-    <em>Di Fang, Yinan Zhu, Runze Fang, Cen Chen, Ziqian Zeng, Huiping Zhuang</em><br>
-    <em>arXiv preprint arXiv:2408.10349</em><br>
-    <a href="https://arxiv.org/abs/2408.10349">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-24.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Genderalign: An alignment dataset for mitigating gender bias in large language models</strong><br>
-    <em>Tao Zhang, Ziqian Zeng, Yuxiang Xiao, Huiping Zhuang, Cen Chen, James Foulds, Shimei Pan</em><br>
-    <em>arXiv preprint arXiv:2406.13925</em><br>
-    <a href="https://arxiv.org/abs/2406.13925">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-25.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>PrivacyRestore: Privacy-Preserving Inference in Large Language Models via Privacy Removal and Restoration</strong><br>
-    <em>Ziqian Zeng, Jianwei Wang, Junyao Yang, Zhengdong Lu, Huiping Zhuang, Cen Chen</em><br>
-    <em>arXiv preprint arXiv:2406.01394</em><br>
-    <a href="https://arxiv.org/abs/2406.01394">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-26.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Analytic federated learning</strong><br>
-    <em>Huiping Zhuang, Run He, Kai Tong, Di Fang, Han Sun, Haoran Li, Tianyi Chen, Ziqian Zeng</em><br>
-    <em>arXiv preprint arXiv:2405.16240</em><br>
-    <a href="https://arxiv.org/abs/2405.16240">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-27.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Eraser: Jailbreaking defense in large language models via unlearning harmful knowledge</strong><br>
-    <em>Weikai Lu, Ziqian Zeng, Jianwei Wang, Zhengdong Lu, Zelin Chen, Huiping Zhuang, Cen Chen</em><br>
-    <em>arXiv preprint arXiv:2404.05880</em><br>
-    <a href="https://arxiv.org/abs/2404.05880">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-28.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>REAL: Representation Enhanced Analytic Learning for Exemplar-free Class-incremental Learning</strong><br>
-    <em>Run He, Huiping Zhuang, Di Fang, Yizhu Chen, Kai Tong, Cen Chen</em><br>
-    <em>arXiv preprint arXiv:2403.13522</em><br>
-    <a href="https://arxiv.org/abs/2403.13522">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-29.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Chimera: A Lossless Decoding Method for Accelerating Large Language Models Inference by Fusing all Tokens</strong><br>
-    <em>Ziqian Zeng, Jiahong Yu, Qianshi Pang, Zihao Wang, Huiping Zhuang, Hongen Shao, Xiaofeng Zou</em><br>
-    <em>arXiv preprint arXiv:2402.15758</em><br>
-    <a href="https://arxiv.org/abs/2402.15758">Paper</a>
-  </div>
-</div>
-
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2024-30.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Mitigating privacy risk in membership inference by convex-concave loss</strong><br>
-    <em>Zhenlong Liu, Lei Feng, Huiping Zhuang, Xiaofeng Cao, Hongxin Wei</em><br>
-    <em>arXiv preprint arXiv:2402.05453</em><br>
-    <a href="https://arxiv.org/abs/2402.05453">Paper</a>
-  </div>
-</div>
 
 ### 2023
 
@@ -663,18 +519,7 @@ header:
   </div>
 </div>
 
-#### 预印本论文
-<div style="display: flex; margin-bottom: 20px;">
-  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
-    <img src="/assets/images/papers/2023-7.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
-  </div>
-  <div style="flex: 1;">
-    <strong>Constant Sequence Extension for Fast Search Using Weighted Hamming Distance</strong><br>
-    <em>Zhenyu Weng, Huiping Zhuang, Haizhou Li, Zhiping Lin</em><br>
-    <em>arXiv preprint arXiv:2306.03612</em><br>
-    <a href="https://arxiv.org/abs/2306.03612">Paper</a>
-  </div>
-</div>
+
 
 ### 2022
 
