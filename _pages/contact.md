@@ -30,4 +30,7 @@ header:
 <p>
 - Published papers are a plus.
 </p>
+<p>
+- Students familiar with the CLI are preferred.
+</p>
 </div>
