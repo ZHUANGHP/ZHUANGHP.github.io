@@ -508,9 +508,14 @@ feature_row:
       let isDragging = false;
       let startY = 0;
       let startScrollTop = 0;
-      let suppressClick = false;
+      let hasDragged = false;
+      let suppressClickUntil = 0;
 
       container.addEventListener('pointerdown', (event) => {
+        if (event.target.closest('a, button')) {
+          return;
+        }
+
         if (event.pointerType !== 'mouse' || event.button !== 0) {
           return;
         }
@@ -518,7 +523,7 @@ feature_row:
         isDragging = true;
         startY = event.clientY;
         startScrollTop = container.scrollTop;
-        suppressClick = false;
+        hasDragged = false;
         container.classList.add('is-dragging');
         container.setPointerCapture(event.pointerId);
       });
@@ -529,8 +534,8 @@ feature_row:
         }
 
         const deltaY = event.clientY - startY;
-        if (Math.abs(deltaY) > 4) {
-          suppressClick = true;
+        if (Math.abs(deltaY) > 6) {
+          hasDragged = true;
         }
 
         container.scrollTop = startScrollTop - deltaY;
@@ -544,6 +549,7 @@ feature_row:
 
         isDragging = false;
         container.classList.remove('is-dragging');
+        suppressClickUntil = hasDragged ? performance.now() + 250 : 0;
 
         if (event && container.hasPointerCapture(event.pointerId)) {
           container.releasePointerCapture(event.pointerId);
@@ -557,13 +563,17 @@ feature_row:
       container.addEventListener(
         'click',
         (event) => {
-          if (!suppressClick) {
+          if (event.target.closest('a, button') && performance.now() > suppressClickUntil) {
+            return;
+          }
+
+          if (performance.now() > suppressClickUntil) {
             return;
           }
 
           event.preventDefault();
           event.stopPropagation();
-          suppressClick = false;
+          suppressClickUntil = 0;
         },
         true
       );
