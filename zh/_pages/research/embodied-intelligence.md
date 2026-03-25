@@ -20,6 +20,69 @@ lang: zh-CN
   line-height: 1.6;
 }
 
+.showcase-box {
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 22px;
+  margin-bottom: 34px;
+  background: linear-gradient(180deg, #fbfdff 0%, #f5f9ff 100%);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.showcase-title {
+  margin: 0 0 8px;
+  font-size: 1.05em;
+  font-weight: 700;
+  color: #1f4f8f;
+}
+
+.showcase-copy {
+  margin: 0 0 18px;
+  font-size: 0.8em;
+  line-height: 1.6;
+  color: #3f4f63;
+}
+
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.showcase-item {
+  background: #fff;
+  border: 1px solid #e6edf5;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(17, 45, 78, 0.08);
+}
+
+.showcase-item video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #eef3f8;
+}
+
+.showcase-caption {
+  padding: 12px 14px 14px;
+}
+
+.showcase-caption strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.82em;
+  color: #173b68;
+}
+
+.showcase-caption span {
+  display: block;
+  font-size: 0.74em;
+  line-height: 1.5;
+  color: #56687d;
+}
+
 .project-box {
   border: 1px solid #eaeaea;
   margin-bottom: 30px;
@@ -85,11 +148,46 @@ lang: zh-CN
 .back-link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 768px) {
+  .showcase-grid {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
 
 
 <div class="project-description">
   我们的具身智能研究聚焦于智能如何由智能体的物理躯体与其控制系统之间的交互而涌现。我们开发能够利用这种物理具身性的 AI 方法，以提升在不断变化环境中的适应能力，从而构建更强健、响应更迅捷的自主系统。
+</div>
+
+<div class="showcase-box">
+  <h2 class="showcase-title">具身智能演示</h2>
+  <p class="showcase-copy">
+    为了更直观地展示我们在真实机器人平台上的具身操作能力，这里补充了两段近期演示视频，涵盖抓取、搬运与桌面交互等任务场景。
+  </p>
+  <div class="showcase-grid">
+    <div class="showcase-item">
+      <video autoplay muted loop playsinline controls preload="metadata">
+        <source src="/assets/videos/research/EI/embodied-demo-blocks.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="showcase-caption">
+        <strong>桌面抓取与方块操作</strong>
+        <span>展示机器人在结构化桌面环境中的目标感知、抓取执行与基础操作能力。</span>
+      </div>
+    </div>
+    <div class="showcase-item">
+      <video autoplay muted loop playsinline controls preload="metadata">
+        <source src="/assets/videos/research/EI/embodied-demo-bowls.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="showcase-caption">
+        <strong>容器感知与操作演示</strong>
+        <span>展示机器人面向日常物体的视觉理解、动作规划与多步骤交互能力。</span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="project-box">
