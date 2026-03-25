@@ -7,8 +7,251 @@ header:
   overlay_filter: 0.25  
 ---
 
-### 2025
-#### Conference Papers
+<style>
+  :root {
+    --pub-primary: #0b5aa2;
+    --pub-primary-dark: #083a67;
+    --pub-accent: #eef5ff;
+    --pub-border: #d9e5f2;
+    --pub-text: #2f3d4f;
+    --pub-muted: #66768a;
+    --pub-card: #ffffff;
+    --pub-shadow: rgba(17, 45, 78, 0.08);
+  }
+
+  .pub-overview {
+    margin: 8px 0 26px;
+    padding: 24px 26px;
+    border: 1px solid var(--pub-border);
+    border-radius: 18px;
+    background: linear-gradient(135deg, #fbfdff 0%, #f3f8ff 60%, #eef5ff 100%);
+    box-shadow: 0 12px 28px var(--pub-shadow);
+  }
+
+  .pub-overview h2 {
+    margin: 0 0 10px;
+    color: var(--pub-primary-dark);
+    font-size: 1.35em;
+  }
+
+  .pub-overview p {
+    margin: 0;
+    color: var(--pub-text);
+    line-height: 1.75;
+    font-size: 0.94em;
+  }
+
+  .pub-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .pub-nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #cfe0f2;
+    background: #ffffff;
+    color: var(--pub-primary-dark);
+    font-size: 0.82em;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .pub-nav a:hover {
+    color: var(--pub-primary);
+    border-color: #9ec1e6;
+  }
+
+  .pub-shell > h3,
+  .pub-shell > h4 {
+    scroll-margin-top: 88px;
+  }
+
+  .pub-year {
+    margin: 40px 0 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6eef7;
+    color: var(--pub-primary-dark);
+    font-size: 1.9em;
+  }
+
+  .pub-type {
+    margin: 0 0 18px;
+    color: #4d6074;
+    font-size: 1.08em;
+    letter-spacing: 0.01em;
+    text-transform: none;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] {
+    gap: 18px;
+    align-items: center;
+    padding: 18px 20px;
+    margin-bottom: 18px !important;
+    border: 1px solid var(--pub-border);
+    border-radius: 18px;
+    background: var(--pub-card);
+    box-shadow: 0 10px 24px var(--pub-shadow);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(12, 52, 96, 0.12);
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] > div:first-child {
+    flex: 0 0 220px !important;
+    margin-right: 0 !important;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] > div:first-child img {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    border-radius: 14px;
+    border: 1px solid #e4edf7;
+    background: linear-gradient(180deg, #f8fbff 0%, #eef5fd 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] > div:last-child {
+    min-width: 0;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--pub-primary-dark);
+    font-size: 1.08em;
+    line-height: 1.45;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] em {
+    display: block;
+    margin-top: 4px;
+    color: var(--pub-muted);
+    font-style: italic;
+    line-height: 1.6;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-right: 10px;
+    padding: 7px 14px;
+    border: 1px solid #cfe0f2;
+    border-radius: 999px;
+    background: var(--pub-accent);
+    color: var(--pub-primary-dark);
+    font-size: 0.8em;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] a:hover {
+    color: var(--pub-primary);
+    border-color: #9ec1e6;
+    background: #ffffff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .pub-overview {
+      padding: 18px 18px 20px;
+    }
+
+    .pub-year {
+      font-size: 1.55em;
+    }
+
+    .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 16px;
+    }
+
+    .pub-shell > div[style*="display: flex; margin-bottom: 20px;"] > div:first-child {
+      flex: none !important;
+    }
+  }
+</style>
+
+<div class="pub-overview">
+  <h2>Selected Publications</h2>
+  <p>
+    This page highlights representative papers from the lab across continual learning, large models, embodied intelligence, federated learning, and multimodal understanding. We refreshed the layout and added direct code links whenever a public repository is available, so the page works better both as a publication list and as a research showcase.
+  </p>
+</div>
+
+<div class="pub-nav">
+  <a href="#y2026">2026</a>
+  <a href="#y2025">2025</a>
+  <a href="#y2024">2024</a>
+  <a href="#y2023">2023</a>
+  <a href="#y2022">2022</a>
+</div>
+
+<div class="pub-shell">
+<h3 id="y2026" class="pub-year">2026</h3>
+<h4 class="pub-type">Conference Papers</h4>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/news/deepafl.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>DeepAFL: Deep Analytic Federated Learning</strong><br>
+    <em>Jianheng Tang, Yajiang Huang, Kejia Fan, Feijiang Han, Jiaxu Li, Jinfeng Xu, Run He, Anfeng Liu, Houbing Herbert Song, Huiping Zhuang, Yunhuai Liu</em><br>
+    <em>ICLR 2026</em><br>
+    <a href="https://openreview.net/forum?id=ve3EzAvMGe">Paper</a><a href="https://github.com/tangent-heng/DeepAFL">Code</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/news/mani.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>ManipEvalAgent: Promptable and Efficient Evaluation Framework for Robotic Manipulation Policies</strong><br>
+    <em>Yiteng Chen, Huiping Zhuang, Wenbo Li, Shiyi Wang, Xiangyu Zhao, Qingyao Wu</em><br>
+    <em>ICLR 2026</em><br>
+    <a href="https://openreview.net/forum?id=3u6AkbWEls">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/news/wina.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>WINA: Weight Informed Neuron Activation for Accelerating Large Language Model Inference</strong><br>
+    <em>Sihan Chen, Dan Zhao, Jongwoo Ko, Colby Banbury, Huiping Zhuang, Luming Liang, Pashmina Cameron, Tianyi Chen</em><br>
+    <em>ICLR 2026</em><br>
+    <a href="https://openreview.net/forum?id=l7Vb3yxmuz">Paper</a><a href="https://github.com/microsoft/wina">Code</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/news/rcp.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>RCP-Merging: Merging Long Chain-of-Thought Models with Domain-Specific Models by Considering Reasoning Capability as Prior</strong><br>
+    <em>Junyao Yang, Jianwei Wang, Huiping Zhuang, Cen Chen, Ziqian Zeng</em><br>
+    <em>AAAI 2026</em><br>
+    <a href="https://arxiv.org/abs/2508.03140">Paper</a>
+  </div>
+</div>
+
+<h3 id="y2025" class="pub-year">2025</h3>
+<h4 class="pub-type">Conference Papers</h4>
 
 
 <div style="display: flex; margin-bottom: 20px;">
@@ -19,7 +262,7 @@ header:
     <strong>Probabilistic Mixture of Hyperbolic Mamba for Few-Shot Class-Incremental Learning</strong><br>
     <em>Y Cui, W Zou, Huiping Zhuang, Y Wang, LP Chau</em><br>
     <em>Proceedings of the 33rd ACM International Conference on Multimedia (ACM MM 2025)</em><br>
-    <a href="https://dl.acm.org/doi/10.1145/3746027.3755306">Paper</a>
+    <a href="https://dl.acm.org/doi/10.1145/3746027.3755306">Paper</a><a href="https://github.com/yawencui/PmH-SSE">Code</a>
   </div>
 </div>
 
@@ -44,7 +287,7 @@ header:
     <img src="/assets/images/papers/2025-10.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>AnalyticKWS: towards exemplar-free analytic class incremental learning for small-footprint keyword spotting</strong><br>
+    <strong>AnalyticKWS: Towards Exemplar-Free Analytic Class Incremental Learning for Small-Footprint Keyword Spotting</strong><br>
     <em>Yang Xiao, Tianyi Peng, Rohan Kumar Das, Yuchen Hu, Huiping Zhuang</em><br>
     <em>Findings of the Association for Computational Linguistics: ACL 2025</em><br>
     <a href="https://aclanthology.org/2025.findings-acl.728/">Paper</a>
@@ -56,10 +299,10 @@ header:
     <img src="/assets/images/papers/2025-19.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Genderalign: An alignment dataset for mitigating gender bias in large language models</strong><br>
-    <em>Tao Zhang, Ziqian Zeng, YuxiangXiao YuxiangXiao, Huiping Zhuang, Cen Chen, James R. Foulds, Shimei Pan</em><br>
-    <em>Findings of the Association for Computational Linguistics: ACL 2025</em><br>
-    <a href="https://aclanthology.org/2025.acl-long.553/">Paper</a>
+    <strong>GenderAlign: An Alignment Dataset for Mitigating Gender Bias in Large Language Models</strong><br>
+    <em>Tao Zhang, Ziqian Zeng, Yuxiang Xiao, Huiping Zhuang, Cen Chen, James R. Foulds, Shimei Pan</em><br>
+    <em>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em><br>
+    <a href="https://aclanthology.org/2025.acl-long.553/">Paper</a><a href="https://github.com/ZeroNLP/GenderAlign">Code</a>
   </div>
 </div>
 
@@ -69,10 +312,10 @@ header:
     <img src="/assets/images/papers/2025-20.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Privacyrestore: Privacy-preserving inference in large language models via privacy removal and restoration</strong><br>
+    <strong>PrivacyRestore: Privacy-Preserving Inference in Large Language Models via Privacy Removal and Restoration</strong><br>
     <em>Ziqian Zeng, Jianwei Wang, Junyao Yang, Zhengdong Lu, Haoran Li, Huiping Zhuang, Cen Chen</em><br>
-    <em>Findings of the Association for Computational Linguistics: ACL 2025</em><br>
-    <a href="https://aclanthology.org/2025.acl-long.532/">Paper</a>
+    <em>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em><br>
+    <a href="https://aclanthology.org/2025.acl-long.532/">Paper</a><a href="https://github.com/wjw136/PrivacyRestore">Code</a>
   </div>
 </div>
 
@@ -84,7 +327,7 @@ header:
     <strong>Semantic Shift Estimation via Dual-Projection and Classifier Reconstruction for Exemplar-Free Class-Incremental Learning</strong><br>
     <em>Run He, Di Fang, Yicheng Xu, Yawen Cui, Ming Li, Cen Chen, Ziqian Zeng, Huiping Zhuang</em><br>
     <em>ICML 2025</em><br>
-    <a href="https://arxiv.org/abs/2503.05423">Paper</a>
+    <a href="https://proceedings.mlr.press/v267/he25d.html">Paper</a><a href="https://github.com/RHe502/ICML25-DPCR">Code</a>
   </div>
 </div>
 
@@ -97,7 +340,19 @@ header:
     <strong>L3A: Label-Augmented Analytic Adaptation for Multi-Label Class Incremental Learning</strong><br>
     <em>Xiang Zhang, Run He, Jiao Chen, Di Fang, Ming Li, Ziqian Zeng, Cen Chen, Huiping Zhuang</em><br>
     <em>ICML 2025</em><br>
-    <a href="https://arxiv.org/abs/2506.00816">Paper</a>
+    <a href="https://proceedings.mlr.press/v267/zhang25y.html">Paper</a><a href="https://github.com/scut-zx/L3A">Code</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/news/WMG1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>WMarkGPT: Watermarked Image Understanding via Multi-modal Large Language Models</strong><br>
+    <em>Songbai Tan, Xuerui Qiu, Yao Shu, Gang Xu, Linrui Xu, Xiangyu Xu, Huiping Zhuang, Ming Li, Fei Yu</em><br>
+    <em>ICML 2025</em><br>
+    <a href="https://proceedings.mlr.press/v267/tan25f.html">Paper</a><a href="https://github.com/TanSongBai/WMarkGPT">Code</a>
   </div>
 </div>
 
@@ -106,10 +361,10 @@ header:
     <img src="/assets/images/papers/2025-11.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
-    <strong>Analytic Subspace Routing: How Recursive Least Squares Works in Continual Learning of Large Language Model</strong><br>
+    <strong>Any-SSR: How Recursive Least Squares Works in Continual Learning of Large Language Model</strong><br>
     <em>Kai Tong, Kang Pan, Xiao Zhang, Erli Meng, Run He, Yawen Cui, Nuoyan Guo, Huiping Zhuang</em><br>
     <em>ICCV 2025</em><br>
-    <a href="https://arxiv.org/abs/2503.13575">Paper</a>
+    <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Tong_Any-SSR_How_Recursive_Least_Squares_Works_in_Continual_Learning_of_ICCV_2025_paper.html">Paper</a><a href="https://github.com/ZHUANGHP/Any-SSR">Code</a>
   </div>
 </div>
 
@@ -121,7 +376,7 @@ header:
     <strong>AFL: A Single-Round Analytic Approach for Federated Learning with Pre-trained Models</strong><br>
     <em>Run He, Kai Tong, Di Fang, Han Sun, Haoran Li, Tianyi Chen, Ziqian Zeng, Huiping Zhuang</em><br>
     <em>CVPR 2025</em><br>
-    <a href="https://arxiv.org/abs/2405.16240">Paper</a>
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/He_AFL_A_Single-Round_Analytic_Approach_for_Federated_Learning_with_Pre-trained_CVPR_2025_paper.html">Paper</a><a href="https://github.com/ZHUANGHP/Analytic-federated-learning">Code</a>
   </div>
 </div>
 
@@ -133,13 +388,12 @@ header:
     <strong>SEA: Low-Resource Safety Alignment for Multimodal Large Language Models via Synthetic Embeddings</strong><br>
     <em>Weikai Lu, Hao Peng, Huiping Zhuang, Cen Chen, Ziqian Zeng</em><br>
     <em>Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</em><br>
-    <a href="https://aclanthology.org/2025.acl-long.1212/">Paper</a>
+    <a href="https://aclanthology.org/2025.acl-long.1212/">Paper</a><a href="https://github.com/ZeroNLP/SEA">Code</a>
   </div>
 </div>
 
 
-
-#### Journal Papers
+<h4 class="pub-type">Journal Papers</h4>
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2025-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -225,9 +479,9 @@ header:
 </div>
 
 
-### 2024
+<h3 id="y2024" class="pub-year">2024</h3>
 
-#### Conference Papers
+<h4 class="pub-type">Conference Papers</h4>
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -248,7 +502,7 @@ header:
     <strong>Advancing Cross-domain Discriminability in Continual Learning of Vision-Language Models</strong><br>
     <em>Yicheng Xu, Yuxin Chen, Jiahao Nie, Yusong Wang, Huiping Zhuang, Manabu Okumura</em><br>
     <em>NeurIPS 2024</em><br>
-    <a href="https://arxiv.org/abs/2406.18868">Paper</a> | <a href="https://github.com/linghan1997/Regression-based-Analytic-Incremental-Learning">Code</a>
+    <a href="https://arxiv.org/abs/2406.18868">Paper</a><a href="https://github.com/linghan1997/Regression-based-Analytic-Incremental-Learning">Code</a>
   </div>
 </div>
 
@@ -260,7 +514,7 @@ header:
     <strong>GACL: Exemplar-Free Generalized Analytic Continual Learning</strong><br>
     <em>Huiping Zhuang, Yizhu Chen, Di Fang, Run He, Kai Tong, Hongxin Wei, Zigian Zeng, Cen Chen</em><br>
     <em>NeurIPS 2024</em><br>
-    <a href="https://arxiv.org/abs/2403.15706">Paper</a> | <a href="https://github.com/CHEN-YIZHU/GACL">Code</a>
+    <a href="https://arxiv.org/abs/2403.15706">Paper</a><a href="https://github.com/CHEN-YIZHU/GACL">Code</a>
   </div>
 </div>
 
@@ -272,7 +526,7 @@ header:
     <strong>F-OAL: Forward-only Online Analytic Learning with Fast Training and Low Memory Footprint in Class Incremental Learning</strong><br>
     <em>Huiping Zhuang, Yuchen Liu, Run He, Kai Tong, Ziqian Zeng, Cen Chen, Yi Wang, Lap-Pui Chau</em><br>
     <em>NeurIPS 2024</em><br>
-    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/48ffa38c13078d6ce26b328e7f373243-Abstract-Conference.html">Paper</a> | <a href="https://github.com/liuyuchen-cz/F-OAL">Code</a>
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/48ffa38c13078d6ce26b328e7f373243-Abstract-Conference.html">Paper</a><a href="https://github.com/liuyuchen-cz/F-OAL">Code</a>
   </div>
 </div>
 
@@ -307,8 +561,8 @@ header:
   <div style="flex: 1;">
     <strong>Zero-shot Event Detection using a Textual Entailment Model as an Enhanced Annotator</strong><br>
     <em>Ziqian Zeng, Runyu Wu, Yuxiang Xiao, Xiaoda Zhong, Hanlin Wang, Zhengdong Lu, Huiping Zhuang</em><br>
-    <em>Proceedings of the 2024 Joint International Conference on Computational</em><br>
-    <a href="https://aclanthology.org/2024.lrec-main.1552/">Paper</a>
+    <em>Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</em><br>
+    <a href="https://aclanthology.org/2024.lrec-main.1552/">Paper</a><a href="https://github.com/ZeroNLP/Distar">Code</a>
   </div>
 </div>
 
@@ -320,7 +574,7 @@ header:
     <strong>DS-AL: A dual-stream analytic learning for exemplar-free class-incremental learning</strong><br>
     <em>Huiping Zhuang, Run He, Kai Tong, Ziqian Zeng, Cen Chen, Zhiping Lin</em><br>
     <em>Proceedings of the AAAI Conference on Artificial Intelligence 38 (15), 17237</em><br>
-    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29670">Paper</a>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29670">Paper</a><a href="https://github.com/ZHUANGHP/Analytic-continual-learning">Code</a>
   </div>
 </div>
 
@@ -332,7 +586,7 @@ header:
     <strong>Consistentee: A consistent and hardness-guided early exiting method for accelerating language models inference</strong><br>
     <em>Ziqian Zeng, Yihuai Hong, Hongliang Dai, Huiping Zhuang, Cen Chen</em><br>
     <em>Proceedings of the AAAI Conference on Artificial Intelligence 38 (17), 19506</em><br>
-    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29922">Paper</a>
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29922">Paper</a><a href="https://github.com/ZeroNLP/ConsistentEE">Code</a>
   </div>
 </div>
 
@@ -348,7 +602,7 @@ header:
   </div>
 </div>
 
-#### Journal Papers
+<h4 class="pub-type">Journal Papers</h4>
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2024-2.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -369,7 +623,7 @@ header:
     <strong>Analytic class incremental learning for sound source localization with privacy protection</strong><br>
     <em>Xinyuan Qian, Xianghu Yue, Jiadong Wang, Huiping Zhuang, Haizhou Li</em><br>
     <em>IEEE Signal Processing Letters</em><br>
-    <a href="https://ieeexplore.ieee.org/abstract/document/10771830">Paper</a>
+    <a href="https://link.springer.com/article/10.1007/s13042-024-02446-3">Paper</a><a href="https://github.com/ZeroNLP/Distar">Code</a>
   </div>
 </div>
 
@@ -405,7 +659,7 @@ header:
     <strong>Online Analytic Exemplar-Free Continual Learning with Large Models for Imbalanced Autonomous Driving Task</strong><br>
     <em>Huiping Zhuang, Di Fang, Kai Tong, Yuchen Liu, Ziqian Zeng, Xu Zhou, Cen Chen</em><br>
     <em>IEEE Transactions on Vehicular Technology</em><br>
-    <a href="https://ieeexplore.ieee.org/abstract/document/10721370">Paper</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/10721370">Paper</a><a href="https://github.com/ZHUANGHP/Analytic-continual-learning">Code</a>
   </div>
 </div>
 
@@ -451,9 +705,9 @@ header:
 
 
 
-### 2023
+<h3 id="y2023" class="pub-year">2023</h3>
 
-#### Conference Papers
+<h4 class="pub-type">Conference Papers</h4>
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2023-3.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -486,11 +740,11 @@ header:
     <strong>GKEAL: Gaussian Kernel Embedded Analytic Learning for Few-shot Class Incremental Task</strong><br>
     <em>Huiping Zhuang, Zhenyu Weng, Run He, Zhiping Lin, Ziqian Zeng</em><br>
     <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023</em><br>
-    <a href="https://ieeexplore.ieee.org/document/10204448">Paper</a>
+    <a href="https://ieeexplore.ieee.org/document/10204448">Paper</a><a href="https://github.com/ZHUANGHP/Analytic-continual-learning">Code</a>
   </div>
 </div>
 
-#### Journal Papers
+<h4 class="pub-type">Journal Papers</h4>
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2023-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -529,9 +783,9 @@ header:
 
 
 
-### 2022
+<h3 id="y2022" class="pub-year">2022</h3>
 
-#### Conference Papers
+<h4 class="pub-type">Conference Papers</h4>
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/papers/2022-1.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
@@ -540,6 +794,8 @@ header:
     <strong>ACIL: Analytic class-incremental learning with absolute memorization and privacy protection</strong><br>
     <em>Huiping Zhuang, Zhenyu Weng, Hongxin Wei, Renchunzi Xie, Kar-Ann Toh, Zhiping Lin</em><br>
     <em>Advances in Neural Information Processing Systems 35, 11602-11614</em><br>
-    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/4b74a42fc81fc7ee252f6bcb6e26c8be-Abstract-Conference.html">Paper</a>
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/4b74a42fc81fc7ee252f6bcb6e26c8be-Abstract-Conference.html">Paper</a><a href="https://github.com/ZHUANGHP/Analytic-continual-learning">Code</a>
   </div>
+</div>
+
 </div>
