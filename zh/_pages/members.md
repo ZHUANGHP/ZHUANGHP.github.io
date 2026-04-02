@@ -39,69 +39,91 @@ header:
 
 .members-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .member-card {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  min-height: 156px;
   background-color: var(--card-bg);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
+  border: 1px solid #dfe7f1;
   box-shadow: var(--card-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.advisor-card {
+  grid-column: span 2;
+}
+
 .member-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.12);
 }
 
 .member-photo {
+  display: block;
   width: 100%;
-  height: 220px;
-  object-fit: cover;
+  height: 100%;
+  min-height: 156px;
+  padding: 10px;
+  object-fit: contain;
+  object-position: center;
+  background: linear-gradient(180deg, #f7f9fc 0%, #eef4fb 100%);
+  border-right: 1px solid #dfe7f1;
 }
 
 .member-info {
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 5px;
+  min-width: 0;
+  padding: 14px 16px;
 }
 
 .member-name {
-  font-size: 1.2em;
+  font-size: 1.02em;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   color: var(--primary-color);
+  line-height: 1.25;
 }
 
 .member-role {
-  font-size: 0.8em;
+  font-size: 0.74em;
   color: var(--light-text);
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .member-email {
-  font-size: 0.75em;
+  font-size: 0.7em;
   color: var(--light-text);
-  margin-bottom: 10px;
+  margin-bottom: 0;
   word-break: break-all;
 }
 
 .member-research {
-  font-size: 0.8em;
+  font-size: 0.74em;
   color: var(--text-color);
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  line-height: 1.45;
 }
 
 .member-links {
-  margin-top: 10px;
+  margin-top: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  padding-top: 3px;
 }
 
 .member-link {
   color: var(--primary-color);
   text-decoration: none;
-  font-size: 0.85em;
+  font-size: 0.76em;
   display: inline-flex;
   align-items: center;
 }
@@ -113,19 +135,54 @@ header:
 
 .member-link svg {
   margin-right: 5px;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
+}
+
+@media (max-width: 1400px) {
+  .members-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
   .members-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
+  }
+
+  .advisor-card {
+    grid-column: span 1;
+  }
+
+  .member-card {
+    grid-template-columns: 112px minmax(0, 1fr);
+    min-height: 148px;
+  }
+
+  .member-photo {
+    min-height: 148px;
+    padding: 10px;
+  }
+
+  .member-info {
+    padding: 12px 14px;
   }
 }
 
 @media (max-width: 480px) {
-  .members-grid {
+  .member-card {
     grid-template-columns: 1fr;
+  }
+
+  .member-photo {
+    min-height: 180px;
+    max-height: 210px;
+    border-right: none;
+    border-bottom: 1px solid #dfe7f1;
+  }
+
+  .member-info {
+    padding: 14px;
   }
 }
 </style>
@@ -133,7 +190,7 @@ header:
 <div class="members-section">
   <h2 class="section-heading">导师</h2>
   <div class="members-grid">
-    <div class="member-card">
+    <div class="member-card advisor-card">
       <img src="/assets/images/profile/advisor/Huiping-Zhuang.jpg" alt="庄辉平教授" class="member-photo">
       <div class="member-info">
         <div class="member-name">庄辉平 (Huiping Zhuang)</div>
