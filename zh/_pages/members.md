@@ -267,39 +267,6 @@ header:
 <div class="members-section">
   <h2 class="section-heading">硕士研究生</h2>
   <div class="members-grid">
-      <div class="member-card">
-      <img src="/assets/images/profile/master/Run-He.jpg" alt="何润" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">何润 (Run He)</div>
-        <div class="member-role">硕士研究生, 2023级</div>
-        <div class="member-research">持续学习，联邦学习 (Continual Learning, Federated Learning)</div>
-        <div class="member-links">
-          <a href="https://rhe502.github.io/" class="member-link" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12L16 12"></path><path d="M12 8L12 16"></path></svg>
-            个人主页
-          </a>
-        </div>        
-      </div>
-    </div>
-    
-    <div class="member-card">
-      <img src="/assets/images/profile/master/Liu-Shuo.jpg" alt="刘硕" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">刘硕 (Shuo Liu)</div>
-        <div class="member-role">硕士研究生, 2023级</div>
-        <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
-      </div>
-    </div>
-    
-    <div class="member-card">
-      <img src="/assets/images/profile/master/Zhiming-Li.jpg" alt="李志明" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">李志明 (Zhiming Li)</div>
-        <div class="member-role">硕士研究生, 2023级</div>
-        <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
-      </div>
-    </div>
-    
     <div class="member-card">
       <img src="/assets/images/profile/master/Jianan-Ji.jpg" alt="纪家楠" class="member-photo">
       <div class="member-info">
@@ -553,6 +520,39 @@ header:
         <div class="member-name">韩贺 (He Han)</div>
         <div class="member-role">硕士研究生, 2022级</div>
         <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Run-He.jpg" alt="何润" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">何润 (Run He)</div>
+        <div class="member-role">硕士研究生, 2023级</div>
+        <div class="member-research">持续学习，联邦学习 (Continual Learning, Federated Learning)</div>
+        <div class="member-research">毕业去向：香港大学</div>
+        <div class="member-links">
+          <a href="https://rhe502.github.io/" class="member-link" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12L16 12"></path><path d="M12 8L12 16"></path></svg>
+            个人主页
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Liu-Shuo.jpg" alt="刘硕" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">刘硕 (Shuo Liu)</div>
+        <div class="member-role">硕士研究生, 2023级</div>
+        <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
+        <div class="member-research">毕业去向：京东</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Zhiming-Li.jpg" alt="李志明" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">李志明 (Zhiming Li)</div>
+        <div class="member-role">硕士研究生, 2023级</div>
+        <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
+        <div class="member-research">毕业去向：南方电网</div>
       </div>
     </div>
   </div>

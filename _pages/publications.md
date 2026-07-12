@@ -197,6 +197,30 @@ title: "Publications"
 
 <div style="display: flex; margin-bottom: 20px;">
   <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/blank.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>X-SGS: Safe and Generalizable Gaussian Splatting with X-dimensional Watermarks</strong><br>
+    <em>Zihang Cheng, Wentao Bao, Huiping Zhuang, Chun Li, Xin Meng, Ziqian Zeng, Cen Chen, Ming Li, Fei Yu</em><br>
+    <em>ECCV 2026</em><br>
+    <a href="https://openreview.net/forum?id=swmf7Wuv3o">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/blank.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
+    <strong>AnaPFL: When Closed-Form Solutions Meet Generalization and Personalization in Personalized Federated Learning</strong><br>
+    <em>Kejia Fan, Jianheng Tang, Zhirui Yang, Feijiang Han, Yajiang Huang, Run He, Jiaxu Li, Songning Lai, Anfeng Liu, Houbing Herbert Song, Yunhuai Liu, Huiping Zhuang</em><br>
+    <em>ECCV 2026</em><br>
+    <a href="https://openreview.net/forum?id=QINxiI8jrF">Paper</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
     <img src="/assets/images/news/deepafl.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
