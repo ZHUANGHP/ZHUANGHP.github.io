@@ -195,7 +195,7 @@ header:
         <div class="member-name">Huiping Zhuang (庄辉平)</div>
         <div class="member-role">Associate Professor</div>
         <div class="member-email">hpzhuang@scut.edu.cn</div>
-        <div class="member-research">Artificial Intelligence, Embodied AI, Large Model (人工智能、具身智能、大模型)</div>
+        <div class="member-research">Continual Learning, Embodied AI, Large Model (持续学习、具身智能、大模型)</div>
         <div class="member-links">
           <a href="https://www2.scut.edu.cn/wusie_en/2022/0712/c25923a490131/page.htm" class="member-link" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M8 12L16 12"></path><path d="M12 8L12 16"></path></svg>
