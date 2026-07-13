@@ -5,7 +5,7 @@ classes: wide
 title: "团队成员"
 lang: zh-CN
 header:
-  overlay_image: /assets/images/group.jpg
+  overlay_image: /assets/images/members-background-2.jpg
 ---
 
 <style>

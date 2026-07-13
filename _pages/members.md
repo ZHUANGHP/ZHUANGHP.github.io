@@ -4,7 +4,7 @@ layout: collection
 classes: wide
 title: "Members"
 header:
-  overlay_image: /assets/images/group.jpg
+  overlay_image: /assets/images/members-background-2.jpg
 ---
 
 <style>
