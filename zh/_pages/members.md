@@ -295,6 +295,15 @@ header:
         <div class="member-research">持续学习，大模型强化微调 (Continual Learning, RL Finetuning of LLM)</div>
       </div>
     </div>
+
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Yingxin-Li.jpg" alt="李颖欣" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">李颖欣 (Yingxin Li)</div>
+        <div class="member-role">硕士研究生, 2024级 (联合培养)</div>
+        <div class="member-research">具身智能 (Embodied Intelligence)</div>
+      </div>
+    </div>
     
     <div class="member-card">
       <img src="/assets/images/profile/master/Jialong-Cao.jpg" alt="曹加龙" class="member-photo">
@@ -322,7 +331,7 @@ header:
         <div class="member-research">大模型 (Large Models)</div>
       </div>
     </div>
-    
+
     <div class="member-card">
       <img src="/assets/images/profile/master/Di-Fang.jpg" alt="方笛" class="member-photo">
       <div class="member-info">
@@ -337,13 +346,49 @@ header:
         </div>
       </div>
     </div>
-    
+
     <div class="member-card">
-      <img src="/assets/images/profile/master/Yingxin-Li.jpg" alt="李颖欣" class="member-photo">
+      <img src="/assets/images/profile/master/Renjie-Guo.jpg" alt="过人杰" class="member-photo">
       <div class="member-info">
-        <div class="member-name">李颖欣 (Yingxin Li)</div>
-        <div class="member-role">硕士研究生, 2024级 (联合培养)</div>
+        <div class="member-name">过人杰 (Renjie Guo)</div>
+        <div class="member-role">硕士研究生, 2026级</div>
         <div class="member-research">具身智能 (Embodied Intelligence)</div>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Tu-Lin.jpg" alt="林图" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">林图 (Tu Lin)</div>
+        <div class="member-role">硕士研究生, 2026级</div>
+        <div class="member-research">大模型 (Large Models)</div>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Zihao-Lin.jpg" alt="林子浩" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">林子浩 (Zihao Lin)</div>
+        <div class="member-role">硕士研究生, 2026级</div>
+        <div class="member-research">大模型 (Large Models)</div>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Fuwen-Qiu.jpg" alt="丘富文" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">丘富文 (Fuwen Qiu)</div>
+        <div class="member-role">硕士研究生, 2026级</div>
+        <div class="member-research">具身智能 (Embodied Intelligence)</div>
+      </div>
+    </div>
+
+    <div class="member-card">
+      <img src="/assets/images/profile/master/Xiaoyu-Sun.jpg" alt="孙晓宇" class="member-photo">
+      <div class="member-info">
+        <div class="member-name">孙晓宇 (Xiaoyu Sun)</div>
+        <div class="member-role">硕士研究生, 2026级</div>
+        <div class="member-research">大模型 (Large Models)</div>
       </div>
     </div>
   </div>
