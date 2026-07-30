@@ -58,6 +58,9 @@ feature_row:
       </p>
     </div>
   </div>
+  <p class="recruitment-alert">
+    <a href="/contact/#joint-phd"><span class="recruitment-message">🔥 PhD opening: Time-Series Signals × Multimodal Large Models — view details.</span><span class="recruitment-date">(Posted: July 30, 2026)</span></a>
+  </p>
   <!-- Research Areas Section -->
   <div class="news-panel">
     <div class="container-title">
@@ -122,6 +125,60 @@ feature_row:
     --border-color: #dde4eb;        /* Light border color that complements the green */
     --card-shadow: 0 4px 12px rgba(0,0,0,0.1);
     --gradient-primary: linear-gradient(135deg, #204B7Cff 0%, #3a7ab3 100%);
+  }
+
+  .recruitment-alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65em;
+    margin: -0.35em 0 1.4em;
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: 600;
+  }
+
+  .recruitment-alert::before,
+  .recruitment-alert::after {
+    color: #c62828;
+    font-size: 1.15em;
+    line-height: 1;
+  }
+
+  .recruitment-alert::before {
+    content: "→";
+  }
+
+  .recruitment-alert::after {
+    content: "←";
+  }
+
+  .recruitment-alert a {
+    color: #c62828;
+    text-decoration: none;
+  }
+
+  .recruitment-message {
+    text-decoration: underline;
+    text-decoration-color: rgba(198, 40, 40, 0.35);
+    text-underline-offset: 0.2em;
+  }
+
+  .recruitment-alert a:hover,
+  .recruitment-alert a:focus {
+    color: #a31515;
+  }
+
+  .recruitment-alert a:hover .recruitment-message,
+  .recruitment-alert a:focus .recruitment-message {
+    text-decoration-color: #a31515;
+  }
+
+  .recruitment-date {
+    margin-left: 0.35em;
+    font-size: 0.78em;
+    font-weight: 400;
+    color: #a85a5a;
   }
   
   /* Global font improvements */
