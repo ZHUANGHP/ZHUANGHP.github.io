@@ -1,13 +1,13 @@
 ---
-title: "We have 2 papers accepted by AAAI 2026!"
+title: "We have 2 papers accepted by AAAI 2026, including 1 Oral!"
 date: 2025-11-08
 ---
 
-We have two papers accepted by AAAI 2026 ! One oral paper contributes to the field of continual learning, addressing the storage burden and data privacy concerns in exemplar-free continual video action recognition. The other paper focuses on large model merging, solving the problem of reasoning capability degradation when integrating long chain-of-thought models with domain-specific models. Detailed information about each publication is provided below.
+We have two papers accepted by AAAI 2026, including one Oral presentation! The oral paper, Rep Deep & Machine Learning, contributes to the field of continual learning, addressing the storage burden and data privacy concerns in exemplar-free continual video action recognition. The other paper focuses on large model merging, solving the problem of reasoning capability degradation when integrating long chain-of-thought models with domain-specific models. Detailed information about each publication is provided below.
 
 ---
 
-### Paper 1: Rep Deep & Machine Learning: Exemplar-Free Continual Video Action Recognition via Slow-Fast Collaborative Learning
+### Paper 1 (Oral): Rep Deep & Machine Learning: Exemplar-Free Continual Video Action Recognition via Slow-Fast Collaborative Learning
 
 **Authors**: Xueyi Zhang, Chengwei Zhang, Zheng Li, Xiyu Wang, Siqi Cai, Mingrui Lao, Yanming Guo,Huiping Zhuang  
 

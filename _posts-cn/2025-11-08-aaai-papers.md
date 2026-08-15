@@ -1,14 +1,14 @@
 ---
-title: "我们有2 篇论文被 AAAI 2026 收录！"
+title: "我们有 2 篇论文被 AAAI 2026 收录，其中 1 篇为 Oral！"
 date: 2025-11-08
 ---
 
-我们有 2 篇论文被 AAAI 2026 收录！其中第一篇是Oral，聚焦持续学习领域，旨在解决无样本持续视频动作识别任务中存在的存储开销与数据隐私问题。另一篇论文则围绕大模型融合方向展开研究，攻克了将长思维链模型与领域专用模型集成时出现的推理性能退化难题。各论文详细信息如下。
+我们有 2 篇论文被 AAAI 2026 收录，其中 1 篇为 Oral！Oral 论文 Rep Deep & Machine Learning 聚焦持续学习领域，旨在解决无样本持续视频动作识别任务中存在的存储开销与数据隐私问题。另一篇论文则围绕大模型融合方向展开研究，攻克了将长思维链模型与领域专用模型集成时出现的推理性能退化难题。各论文详细信息如下。
 
 
 ---
 
-### Paper 1: Rep Deep & Machine Learning: Exemplar-Free Continual Video Action Recognition via Slow-Fast Collaborative Learning
+### Paper 1（Oral）：Rep Deep & Machine Learning: Exemplar-Free Continual Video Action Recognition via Slow-Fast Collaborative Learning
 
 **Authors**: Xueyi Zhang, Chengwei Zhang, Zheng Li, Xiyu Wang, Siqi Cai, Mingrui Lao, Yanming Guo,Huiping Zhuang  
 

@@ -1,6 +1,6 @@
 ---
 title: "We have 2 papers accepted by CVPR 2026, including 1 Oral!"
-date: 2026-05-08
+date: 2026-03-01
 ---
 
 We have two papers accepted by CVPR 2026, including one Oral presentation! The oral paper, ARGUS, focuses on defending multimodal large language models against multimodal indirect prompt injection attacks. The other paper, SciEducator, introduces a Deming-Cycle multi-agent system for scientific video understanding and education. Detailed information about each publication is provided below.
