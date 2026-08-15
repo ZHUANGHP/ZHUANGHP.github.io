@@ -112,7 +112,7 @@ header:
 }
 </style>
 
-<div class="research-area-content"><p>在MIAA实验室，我们探索前沿技术和方法论，以推进人工智能的发展。</p><p>我们实验室主要的研究方向有三块：持续学习、具身智能、大模型，以及这些研究方向的交叉融合。</p><div>
+<div class="research-area-content"><p>在MIAA实验室，我们探索前沿技术和方法论，以推进人工智能的发展。</p><p>我们实验室主要聚焦持续学习、具身智能和大模型，并推动这些方向的交叉融合。</p></div>
 
 <div class="research-areas">
   <div class="research-area">
@@ -125,7 +125,7 @@ header:
       <a href="/zh/research/continual-learning" class="research-btn">了解更多</a>
     </div>
   </div>
-  
+
   <div class="research-area">
     <div class="research-area-image">
       <img src="/assets/images/research/EI.png" alt="具身智能">

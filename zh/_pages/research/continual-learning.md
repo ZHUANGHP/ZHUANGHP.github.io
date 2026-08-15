@@ -74,10 +74,35 @@ classes: wide
 .back-link:hover {
   text-decoration: underline;
 }
+
+.special-link-box {
+  border: 1px solid #d7e5f5;
+  border-left: 5px solid #204B7C;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin: 0 0 30px;
+  background: #f7fbff;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.special-link-box a {
+  color: #204B7C;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.special-link-box a:hover {
+  text-decoration: underline;
+}
 </style>
 
 <div class="project-description">
-  在持续学习领域，团队开创了一个全新的分支：解析持续学习。采用传统机器学习方法，利用最小二乘递归的扩展式递归推导，实现条件完全无遗忘特性的新型持续学习框架。近2年已在此分支发表超15篇CCF-A顶会。
+  在持续学习领域，团队开创了一个全新的分支：解析持续学习。采用传统机器学习方法，利用最小二乘递归的扩展式递归推导，实现条件完全无遗忘特性的新型持续学习框架。近年已在此分支发表NeurIPS、ICML、CVPR等顶会论文超20篇，最新已拓展至大模型与具身智能领域。
+</div>
+
+<div class="special-link-box">
+  <a href="/zh/research/analytic-continual-learning/">查看解析持续学习专题页</a>，了解该方向的方法脉络、代表性工作与论文地图。
 </div>
 
 <div class="project-box">

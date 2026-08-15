@@ -72,10 +72,35 @@ classes: wide
 .back-link:hover {
   text-decoration: underline;
 }
+
+.special-link-box {
+  border: 1px solid #d7e5f5;
+  border-left: 5px solid #204B7C;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin: 0 0 30px;
+  background: #f7fbff;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+
+.special-link-box a {
+  color: #204B7C;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.special-link-box a:hover {
+  text-decoration: underline;
+}
 </style>
 
 <div class="project-description">
-  In the field of continual learning, our team pioneered a new branch: <strong>Analytic Continual Learning (ACL)</strong>. By adopting traditional machine learning methods and an extended version of recursive least squares with analytical derivations, we developed a novel continual learning framework that achieves conditionally complete non-forgetting. Over the past 2 years, more than 15 papers on this branch have been published in top conferences such as ICML, NeurIPS, CVPR, etc.
+  In the field of continual learning, our team pioneered a new branch: <strong>Analytic Continual Learning (ACL)</strong>. By adopting traditional machine learning methods and an extended version of recursive least squares with analytical derivations, we developed a novel continual learning framework that achieves conditionally complete non-forgetting. In recent years, this branch has produced more than 20 papers in top conferences such as NeurIPS, ICML, and CVPR, and it has expanded toward large models and embodied intelligence.
+</div>
+
+<div class="special-link-box">
+  <a href="/research/analytic-continual-learning/">Explore the Analytic Continual Learning special page</a> for the method lineage, representative works, and publication map of this research branch.
 </div>
 
 <div class="project-box">
