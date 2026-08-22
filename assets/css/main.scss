@@ -7,6 +7,13 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* Keep abstract paragraphs in all English and Chinese news posts aligned
+   evenly along both the left and right edges. */
+.page__content h4 + p {
+  text-align: justify;
+  text-justify: auto;
+}
+
 /* Custom styles for smaller navigation font size and spacing */
 .greedy-nav .visible-links a {
   font-size: 0.8em; /* Even smaller font - ~10px */

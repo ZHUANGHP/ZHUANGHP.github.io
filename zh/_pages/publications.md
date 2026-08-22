@@ -202,6 +202,18 @@ lang: zh-CN
     <img src="/assets/images/blank.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
+    <strong>Beyond Codebook Uniformity: Triplet-Level Metrics and Triplet-Driven Semantic IDs for Generative Retrieval</strong><br>
+    <em>Xiang Tan, Dongliang Liao, Junwu Du, Haijun Wu, Run He, Shuquan Man, Ziqian Zeng, Huiping Zhuang</em><br>
+    <em>EMNLP 2026 Main Conference</em><br>
+    <a href="/zh/2026-08-22-emnlp-main-paper/">新闻</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/blank.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
     <strong>X-SGS: Safe and Generalizable Gaussian Splatting with X-dimensional Watermarks</strong><br>
     <em>Zihang Cheng, Wentao Bao, Huiping Zhuang, Chun Li, Xin Meng, Ziqian Zeng, Cen Chen, Ming Li, Fei Yu</em><br>
     <em>ECCV 2026</em><br>
