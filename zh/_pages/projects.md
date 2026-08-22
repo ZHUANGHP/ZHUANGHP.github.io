@@ -42,27 +42,42 @@ header:
 }
 .projects-container {
   font-size: 0.85em;
-  display: flex; 
+  display: flex;
   margin-bottom: 20px;
   padding: 20px; 
   line-height: 2em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .images-container{
-  flex: 0 0 220px; 
-  margin-right: 15px; 
+  flex: 0 0 220px;
+  margin-right: 15px;
   display: flex; 
   align-items: center;
 }
 .images {
-  width: 10em; 
+  width: 10em;
   height: auto; 
   max-height: 100%; 
   object-fit: contain;
 }
+
 </style>
 
 <div class="projects-section">
+
+  <div class="projects-container">
+    <div class="images-container">
+      <img src="/assets/images/collaboration/xiaomi-1.svg" class = "images">
+    </div>
+    <div style="flex: 1;margin-left: 20px;">
+      小米公司基金<br>
+      <strong>后训练阶段 MoE 架构大模型路由策略协同与训练稳定性研究</strong><br>
+      <span class="tag tag-blue">大模型</span>
+      <span class="tag tag-green">MoE</span><br>
+      面向 MoE 大模型后训练的高效优化方法，包括专家均衡与知识保持、稳定强化学习和有效专家参数高效微调。<br>
+      <span style="color: #666;">2026.07.30 至今</span>
+    </div>
+  </div>
   
   <div class="projects-container">
     <div class="images-container">
@@ -86,7 +101,7 @@ header:
       <strong>基于大模型微调技术缓解灾难性遗忘问题</strong><br>
       <span class="tag tag-blue">大模型</span>
       <span class="tag tag-green">持续学习</span><br>
-      解决小米零售LLM聊天机器人持续更新新产品信息的持续学习问题。<br>
+      解决小米零售 LLM 聊天机器人持续更新新产品信息的持续学习问题。<br>
       <span style="color: #666;">2024.08 – 2025.07</span>
     </div>
   </div>

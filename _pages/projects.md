@@ -41,27 +41,42 @@ header:
 }
 .projects-container {
   font-size: 0.85em;
-  display: flex; 
+  display: flex;
   margin-bottom: 20px;
   padding: 20px; 
   line-height: 2em;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .images-container{
-  flex: 0 0 220px; 
-  margin-right: 15px; 
+  flex: 0 0 220px;
+  margin-right: 15px;
   display: flex; 
   align-items: center;
 }
 .images {
-  width: 10em; 
+  width: 10em;
   height: auto; 
   max-height: 100%; 
   object-fit: contain;
 }
+
 </style>
 
 <div class="projects-section">
+
+  <div class="projects-container">
+    <div class="images-container">
+      <img src="/assets/images/collaboration/xiaomi-1.svg" class = "images">
+    </div>
+    <div style="flex: 1;margin-left: 20px;">
+      Xiaomi Corporation Fund<br>
+      <strong>Collaborative Routing Strategies and Training Stability for Post-Training MoE Large Models</strong><br>
+      <span class="tag tag-blue">large model</span>
+      <span class="tag tag-green">MoE</span><br>
+      Efficient optimization methods for post-training MoE large models, including expert balancing and knowledge retention, stable reinforcement learning, and parameter-efficient fine-tuning of effective experts.<br>
+      <span style="color: #666;">2026.07.30 to present</span>
+    </div>
+  </div>
   
   <div class="projects-container">
     <div class="images-container">
