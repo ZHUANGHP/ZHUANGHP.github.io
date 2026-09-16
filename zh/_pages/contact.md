@@ -35,13 +35,6 @@ header:
     height: 4px;
     background: linear-gradient(90deg, #204b7c, #3a7ab3);
   }
-  .recruitment-block:nth-of-type(2) {
-    border-color: #b9dfe7;
-    background: linear-gradient(135deg, #f4fbff 0%, #eaf8f8 50%, #eef3ff 100%);
-  }
-  .recruitment-block:nth-of-type(2)::before {
-    background: linear-gradient(90deg, #1167b1, #17a9b8, #5877d8);
-  }
   .recruitment-block h2 {
     margin-top: 0;
     color: #204b7c;
@@ -49,19 +42,6 @@ header:
   }
   .recruitment-block p:last-child {
     margin-bottom: 0;
-  }
-  .opportunity-date {
-    margin: -0.5em 0 1em;
-    color: #657b91;
-    font-size: 0.82em;
-  }
-  .joint-phd-poster {
-    display: block;
-    width: 100%;
-    max-width: 760px;
-    height: auto;
-    margin: 1.25em auto 0;
-    border-radius: 4px;
   }
   @media screen and (max-width: 768px) {
     .recruitment-block {
@@ -89,14 +69,5 @@ header:
 <p>
 - 熟悉CLI的同学优先。
 </p>
-</section>
-
-<section id="joint-phd" class="recruitment-block">
-<h2>近期招生项目</h2>
-<p class="opportunity-date">发布于 2026-07-30</p>
-<p><strong>时序信号 × 多模态大模型博士联合培养</strong></p>
-<p>团队近期招收面向交叉前沿研究的联合培养博士生，由温珍福教授与庄辉平副教授共同指导。研究聚焦面向时序信号的多模态大模型，具体方向可围绕模型高效化、多模态对齐、强化微调、智能体及后训练等展开。</p>
-<p>导师介绍、团队优势及申请要求请查看下方海报，欢迎对相关方向感兴趣的同学联系我们。</p>
-<img class="joint-phd-poster" src="/assets/images/joint-phd-recruitment.png" alt="时序信号与多模态大模型博士联合培养招生海报">
 </section>
 </div>

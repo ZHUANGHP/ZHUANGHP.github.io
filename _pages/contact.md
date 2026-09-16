@@ -34,13 +34,6 @@ header:
     height: 4px;
     background: linear-gradient(90deg, #204b7c, #3a7ab3);
   }
-  .recruitment-block:nth-of-type(2) {
-    border-color: #b9dfe7;
-    background: linear-gradient(135deg, #f4fbff 0%, #eaf8f8 50%, #eef3ff 100%);
-  }
-  .recruitment-block:nth-of-type(2)::before {
-    background: linear-gradient(90deg, #1167b1, #17a9b8, #5877d8);
-  }
   .recruitment-block h2 {
     margin-top: 0;
     color: #204b7c;
@@ -48,19 +41,6 @@ header:
   }
   .recruitment-block p:last-child {
     margin-bottom: 0;
-  }
-  .opportunity-date {
-    margin: -0.5em 0 1em;
-    color: #657b91;
-    font-size: 0.82em;
-  }
-  .joint-phd-poster {
-    display: block;
-    width: 100%;
-    max-width: 760px;
-    height: auto;
-    margin: 1.25em auto 0;
-    border-radius: 4px;
   }
   @media screen and (max-width: 768px) {
     .recruitment-block {
@@ -88,14 +68,5 @@ header:
 <p>
 - Students familiar with the CLI are preferred.
 </p>
-</section>
-
-<section id="joint-phd" class="recruitment-block">
-<h2>Current Opportunity</h2>
-<p class="opportunity-date">Posted: July 30, 2026</p>
-<p><strong>Joint PhD Training: Time-Series Signals × Multimodal Large Models</strong></p>
-<p>We are currently recruiting PhD candidates for an interdisciplinary joint training project supervised by Prof. Zhenfu Wen and Prof. Huiping Zhuang. The project explores multimodal large models for time-series signals, with flexible research topics spanning model efficiency, multimodal alignment, reinforcement fine-tuning, intelligent agents, and post-training.</p>
-<p>Please see the poster below for research directions, supervision, and application requirements. Interested candidates are welcome to contact us.</p>
-<img class="joint-phd-poster" src="/assets/images/joint-phd-recruitment.png" alt="Joint PhD recruitment in time-series signals and multimodal large models">
 </section>
 </div>
