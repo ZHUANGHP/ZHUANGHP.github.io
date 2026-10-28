@@ -235,15 +235,6 @@ header:
     </div>
     
     <div class="member-card">
-      <img src="/assets/images/profile/phd/Boomer.jpg" alt="Boomer" class="member-photo">
-      <div class="member-info">
-        <div class="member-name">Junfei Wang (王骏飞)</div>
-        <div class="member-role">PhD Student, 2024</div>
-        <div class="member-research">AI Hardware Accelerator (AI硬件加速器)</div>
-      </div>
-    </div>
-    
-    <div class="member-card">
       <img src="/assets/images/profile/phd/Yue-Yan.jpg" alt="Yue Yan" class="member-photo">
       <div class="member-info">
         <div class="member-name">Yue Yan (严越)</div>
