@@ -557,6 +557,7 @@ header:
         <div class="member-name">He Han (韩贺)</div>
         <div class="member-role">Master Student, 2022</div>
         <div class="member-research">Continual Learning, Hardware Deployment (持续学习，硬件部署)</div>
+        <div class="member-research">Destination: Shanxi Institute of Science and Technology (Lecturer)</div>
       </div>
     </div>
     <div class="member-card">

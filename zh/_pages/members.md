@@ -556,6 +556,7 @@ header:
         <div class="member-name">韩贺 (He Han)</div>
         <div class="member-role">硕士研究生, 2022级</div>
         <div class="member-research">持续学习，硬件部署 (Continual Learning, Hardware Deployment)</div>
+        <div class="member-research">毕业去向：山西科技学院（讲师）</div>
       </div>
     </div>
     <div class="member-card">
