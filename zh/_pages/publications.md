@@ -205,7 +205,7 @@ lang: zh-CN
     <strong>HyperSkill: Multi-Modal Skill Learning on the Unit Hypersphere</strong><br>
     <em>Erdemt Bao, Jun Chen, Weijun Qin, Shaopeng Li, Ming Li, Mengchen Zhao, Ziqian Zeng, Cen Chen, Huiping Zhuang</em><br>
     <em>NeurIPS 2026</em><br>
-    <a href="/zh/2026-11-10-neurips-paper/">新闻</a>
+    <a href="/zh/2026-09-28-neurips-paper/">新闻</a>
   </div>
 </div>
 

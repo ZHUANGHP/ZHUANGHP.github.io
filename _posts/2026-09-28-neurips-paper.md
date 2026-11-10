@@ -1,6 +1,6 @@
 ---
 title: "We have 1 paper accepted by NeurIPS 2026!"
-date: 2026-11-10
+date: 2026-09-28
 ---
 
 We have one paper accepted by NeurIPS 2026! This work introduces structured multimodal skill learning on the unit hypersphere for robust robot manipulation. Detailed information is provided below.
