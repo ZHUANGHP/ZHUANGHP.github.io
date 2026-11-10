@@ -202,6 +202,18 @@ lang: zh-CN
     <img src="/assets/images/blank.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
   </div>
   <div style="flex: 1;">
+    <strong>HyperSkill: Multi-Modal Skill Learning on the Unit Hypersphere</strong><br>
+    <em>Erdemt Bao, Jun Chen, Weijun Qin, Shaopeng Li, Ming Li, Mengchen Zhao, Ziqian Zeng, Cen Chen, Huiping Zhuang</em><br>
+    <em>NeurIPS 2026</em><br>
+    <a href="/zh/2026-11-10-neurips-paper/">新闻</a>
+  </div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px;">
+  <div style="flex: 0 0 220px; margin-right: 15px; display: flex; align-items: center;">
+    <img src="/assets/images/blank.png" style="width: 100%; height: auto; max-height: 100%; object-fit: contain;">
+  </div>
+  <div style="flex: 1;">
     <strong>Beyond Codebook Uniformity: Triplet-Level Metrics and Triplet-Driven Semantic IDs for Generative Retrieval</strong><br>
     <em>Xiang Tan, Dongliang Liao, Junwu Du, Haijun Wu, Run He, Shuquan Man, Ziqian Zeng, Huiping Zhuang</em><br>
     <em>EMNLP 2026 Main Conference</em><br>
